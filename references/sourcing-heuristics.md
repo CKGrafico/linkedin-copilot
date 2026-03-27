@@ -61,9 +61,9 @@ High-signal indicators for identifying valuable contacts on LinkedIn. These heur
 
 ## When Agents Should Consult This
 
-- [sourcer](../agents/sourcer.md) — primary reference for identifying and prioritizing candidates
-- [skills/person-search.md](../skills/person-search.md) — step 5 instructs consulting this reference
-- [skills/lead-ranking.md](../skills/lead-ranking.md) — uses these signals in the ranking framework
+- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — primary reference for identifying and prioritizing candidates
+- [.github/instructions/skills/person-search.instructions.md](../.github/instructions/skills/person-search.instructions.md) — step 5 instructs consulting this reference
+- [.github/instructions/skills/lead-ranking.instructions.md](../.github/instructions/skills/lead-ranking.instructions.md) — uses these signals in the ranking framework
 
 ---
 

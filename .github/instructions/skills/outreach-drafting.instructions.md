@@ -11,13 +11,13 @@ Provides a framework for drafting effective LinkedIn outreach messages: choosing
 ## Used By
 
 - *(outreach-writer — future agent)*
-- [sourcer](../agents/sourcer.md) *(when preparing initial contact notes)*
+- [sourcer](../agents/sourcer.instructions.md) *(when preparing initial contact notes)*
 
 ---
 
 ## When to Apply
 
-When preparing to send a LinkedIn message to someone — whether a connection request note, a direct message, or an InMail. Apply after [profile-summary](profile-summary.md) has been completed and personalization hooks have been identified.
+When preparing to send a LinkedIn message to someone — whether a connection request note, a direct message, or an InMail. Apply after [profile-summary](./`profile-summary.instructions.md) has been completed and personalization hooks have been identified.
 
 ---
 
@@ -64,7 +64,7 @@ Follow this structure regardless of message type:
 
 ### 4. Apply personalization
 
-Before sending, verify the message includes at least one specific detail unique to this recipient. Generic messages are immediately recognizable and get lower response rates. For personalization techniques, see [message-personalization](message-personalization.md).
+Before sending, verify the message includes at least one specific detail unique to this recipient. Generic messages are immediately recognizable and get lower response rates. For personalization techniques, see [message-personalization](./`message-personalization.instructions.md).
 
 ### 5. Write the call to action correctly
 
@@ -82,9 +82,9 @@ A bad call to action:
 
 ## Input Requirements
 
-- The recipient's profile summary (from [profile-summary](profile-summary.md))
+- The recipient's profile summary (from [profile-summary](./`profile-summary.instructions.md))
 - The purpose of the outreach (what are you asking for?)
-- Personalization hooks (from [message-personalization](message-personalization.md))
+- Personalization hooks (from [message-personalization](./`message-personalization.instructions.md))
 - Message type (connection request / direct message / InMail)
 
 ---
@@ -100,15 +100,15 @@ A complete draft message, labeled with:
 
 ## Related Skills
 
-- [profile-summary](profile-summary.md) — provides the recipient context needed before drafting
-- [message-personalization](message-personalization.md) — provides the personalization hooks used in the opening
+- [profile-summary](./`profile-summary.instructions.md) — provides the recipient context needed before drafting
+- [message-personalization](./`message-personalization.instructions.md) — provides the personalization hooks used in the opening
 
 ---
 
 ## References
 
-- [outreach-best-practices](../references/outreach-best-practices.md) — what makes outreach effective vs. ignored
-- [ethical-boundaries](../references/ethical-boundaries.md) — acceptable outreach volume and behavior
+- [outreach-best-practices](../../../references/outreach-best-practices.md) — what makes outreach effective vs. ignored
+- [ethical-boundaries](../../../references/ethical-boundaries.md) — acceptable outreach volume and behavior
 
 ---
 

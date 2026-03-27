@@ -22,9 +22,9 @@ Homepage: https://browsermcp.io/
 
 ## Setup (one-time)
 
-1. Install the Browser MCP extension in your browser (Chrome or compatible).
-2. Add the Browser MCP server to your AI application (Claude Desktop, Cursor, etc.) following the instructions at https://browsermcp.io/.
-3. Log into LinkedIn in your browser as you normally would.
+1. Install the Browser MCP extension in your browser (Microsoft Edge or Chrome).
+2. Add the Browser MCP server to your AI application (VS Code, Claude Desktop, Cursor, etc.) following the instructions at https://browsermcp.io/.
+3. Log into LinkedIn in Edge (or whichever browser has the extension installed) as you normally would.
 4. From this point, agents can control LinkedIn through your browser session.
 
 ---
@@ -93,11 +93,11 @@ These guidelines ensure the automation remains within acceptable use limits. See
 
 ## When Agents Should Consult This
 
-- [skills/browser-navigation.md](../skills/browser-navigation.md) — foundational skill built on these tools
-- [skills/person-search.md](../skills/person-search.md) — uses navigate, snapshot, click
-- [skills/job-search.md](../skills/job-search.md) — uses navigate, snapshot, click
-- [skills/profile-summary.md](../skills/profile-summary.md) — uses navigate, snapshot, go_back
-- [skills/company-research.md](../skills/company-research.md) — uses navigate, snapshot
+- [.github/instructions/skills/browser-navigation.instructions.md](../.github/instructions/skills/browser-navigation.instructions.md) — foundational skill built on these tools
+- [.github/instructions/skills/person-search.instructions.md](../.github/instructions/skills/person-search.instructions.md) — uses navigate, snapshot, click
+- [.github/instructions/skills/job-search.instructions.md](../.github/instructions/skills/job-search.instructions.md) — uses navigate, snapshot, click
+- [.github/instructions/skills/profile-summary.instructions.md](../.github/instructions/skills/profile-summary.instructions.md) — uses navigate, snapshot, go_back
+- [.github/instructions/skills/company-research.instructions.md](../.github/instructions/skills/company-research.instructions.md) — uses navigate, snapshot
 
 ---
 

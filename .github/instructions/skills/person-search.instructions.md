@@ -10,13 +10,13 @@ Executes an effective LinkedIn people search using Browser MCP — navigating to
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
+- [sourcer](../agents/sourcer.instructions.md)
 
 ---
 
 ## When to Apply
 
-After queries have been designed using [search-query-design](search-query-design.md). Requires Browser MCP to be active and LinkedIn to be open in the browser. See [browser-navigation](browser-navigation.md) for setup.
+After queries have been designed using [search-query-design](./`search-query-design.instructions.md). Requires Browser MCP to be active and LinkedIn to be open in the browser. See [browser-navigation](./`browser-navigation.instructions.md) for setup.
 
 ---
 
@@ -77,7 +77,7 @@ wait: 2
 snapshot
 ```
 
-Apply [profile-summary](profile-summary.md) to extract: role, trajectory, activity, connection degree, mutual connections, hooks.
+Apply [profile-summary](./`profile-summary.instructions.md) to extract: role, trajectory, activity, connection degree, mutual connections, hooks.
 
 Then return to results:
 ```
@@ -108,7 +108,7 @@ Within the same relevance level, prefer:
 
 ### 8. Build the candidate list
 
-Record each viable candidate using the output format below. Pass through [lead-ranking](lead-ranking.md) to prioritize.
+Record each viable candidate using the output format below. Pass through [lead-ranking](./`lead-ranking.instructions.md) to prioritize.
 
 ### 9. Know when to stop
 
@@ -117,13 +117,13 @@ Stop when you have:
 - Reviewed 3+ pages with diminishing quality, OR
 - Exhausted results for the current query
 
-If the list is too thin, return to [search-query-design](search-query-design.md) and broaden.
+If the list is too thin, return to [search-query-design](./`search-query-design.instructions.md) and broaden.
 
 ---
 
 ## Input Requirements
 
-- A ready-to-use Boolean query (from [search-query-design](search-query-design.md))
+- A ready-to-use Boolean query (from [search-query-design](./`search-query-design.instructions.md))
 - Targeting criteria (type, seniority, geography, company)
 - Any exclusion criteria
 
@@ -142,20 +142,20 @@ A candidate list with per-entry structure:
 
 ## Related Skills
 
-- [browser-navigation](browser-navigation.md) — foundational browser operation patterns used throughout this skill
-- [search-query-design](search-query-design.md) — prerequisite; designs the queries this skill executes
-- [profile-summary](profile-summary.md) — used during candidate review
-- [lead-ranking](lead-ranking.md) — used to prioritize the candidate list
+- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns used throughout this skill
+- [search-query-design](./`search-query-design.instructions.md) — prerequisite; designs the queries this skill executes
+- [profile-summary](./`profile-summary.instructions.md) — used during candidate review
+- [lead-ranking](./`lead-ranking.instructions.md) — used to prioritize the candidate list
 
 ---
 
 ## References
 
-- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [sourcing-heuristics](../references/sourcing-heuristics.md) — which signals indicate a valuable contact
-- [search-patterns](../references/search-patterns.md) — reliable search patterns by use case
-- [linkedin-usage-patterns](../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
-- [ethical-boundaries](../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
+- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — which signals indicate a valuable contact
+- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
+- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
+- [ethical-boundaries](../../../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
 
 ---
 

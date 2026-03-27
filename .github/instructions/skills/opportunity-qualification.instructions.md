@@ -10,13 +10,13 @@ Evaluates whether a job posting or professional opportunity is worth pursuing gi
 
 ## Used By
 
-- [headhunter](../agents/headhunter.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
 ## When to Apply
 
-After initial job search results have been gathered using [job-search](job-search.md), before ranking. This skill takes raw results and determines which ones deserve further investment of time.
+After initial job search results have been gathered using [job-search](./`job-search.instructions.md), before ranking. This skill takes raw results and determines which ones deserve further investment of time.
 
 ---
 
@@ -65,12 +65,12 @@ Based on hard filters and soft signal rating:
 - **Apply now:** Strong fit, fresh posting, real company, accessible.
 - **Apply soon:** Good fit, minor concerns (slightly old, no internal contact), worth acting on this week.
 - **Monitor:** Interesting but something is unclear or a concern exists. Re-evaluate in 7 days.
-- **Research further:** Looks promising but needs more information before deciding (use [company-research](company-research.md)).
+- **Research further:** Looks promising but needs more information before deciding (use [company-research](./`company-research.instructions.md)).
 - **Skip:** Failed hard filter, or soft signals are predominantly negative.
 
 ### 4. Document the qualification
 
-Record each decision in session notes using [note-taking](note-taking.md):
+Record each decision in session notes using [note-taking](./`note-taking.instructions.md):
 - Opportunity name and company
 - Qualification decision and 1-sentence rationale
 - Any flags or open questions
@@ -98,16 +98,16 @@ Flags: [any concerns or open questions]
 
 ## Related Skills
 
-- [job-search](job-search.md) — produces the raw results this skill qualifies
-- [company-research](company-research.md) — used when "Research further" decision is made
-- [lead-ranking](lead-ranking.md) — used after qualification to prioritize the "apply" list
+- [job-search](./`job-search.instructions.md) — produces the raw results this skill qualifies
+- [company-research](./`company-research.instructions.md) — used when "Research further" decision is made
+- [lead-ranking](./`lead-ranking.instructions.md) — used after qualification to prioritize the "apply" list
 
 ---
 
 ## References
 
-- [job-search-heuristics](../references/job-search-heuristics.md) — detailed signals for posting quality
-- [company-evaluation-criteria](../references/company-evaluation-criteria.md) — how to assess a company
+- [job-search-heuristics](../../../references/job-search-heuristics.md) — detailed signals for posting quality
+- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — how to assess a company
 
 ---
 

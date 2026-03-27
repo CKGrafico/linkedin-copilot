@@ -10,7 +10,7 @@ Researches a company using LinkedIn signals to produce a compact assessment: siz
 
 ## Used By
 
-- [headhunter](../agents/headhunter.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
@@ -22,7 +22,7 @@ When a specific company needs evaluation — either as a job application target,
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to the company page
 
@@ -154,17 +154,17 @@ Strategic fit: [strong / moderate / weak] — [1-sentence rationale]
 
 ## Related Skills
 
-- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
-- [opportunity-qualification](opportunity-qualification.md) — uses this assessment as input for the "Research further" path
-- [lead-ranking](lead-ranking.md) — company quality contributes to opportunity ranking
+- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
+- [opportunity-qualification](./`opportunity-qualification.instructions.md) — uses this assessment as input for the "Research further" path
+- [lead-ranking](./`lead-ranking.instructions.md) — company quality contributes to opportunity ranking
 
 ---
 
 ## References
 
-- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [company-evaluation-criteria](../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
-- [recruiter-signals](../references/recruiter-signals.md) — reading hiring activity patterns
+- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
+- [recruiter-signals](../../../references/recruiter-signals.md) — reading hiring activity patterns
 
 ---
 

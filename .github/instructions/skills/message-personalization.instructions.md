@@ -11,13 +11,13 @@ Identifies personalization hooks in a recipient's LinkedIn profile — shared co
 ## Used By
 
 - *(outreach-writer — future agent)*
-- [sourcer](../agents/sourcer.md) *(when preparing contact notes)*
+- [sourcer](../agents/sourcer.instructions.md) *(when preparing contact notes)*
 
 ---
 
 ## When to Apply
 
-After [profile-summary](profile-summary.md) has been completed and before drafting the message with [outreach-drafting](outreach-drafting.md). Personalization hooks are the input to the opening line of any outreach message.
+After [profile-summary](./`profile-summary.instructions.md) has been completed and before drafting the message with [outreach-drafting](./`outreach-drafting.instructions.md). Personalization hooks are the input to the opening line of any outreach message.
 
 ---
 
@@ -76,7 +76,7 @@ Sometimes the strongest hook is too sensitive or too personal for a first messag
 
 ## Input Requirements
 
-- The recipient's profile summary (from [profile-summary](profile-summary.md))
+- The recipient's profile summary (from [profile-summary](./`profile-summary.instructions.md))
 - Context about your relationship to them (do you share background, connections, or interests?)
 - The purpose of the outreach
 
@@ -94,15 +94,15 @@ Secondary hook (if applicable): [Category] — [specific observation]
 
 ## Related Skills
 
-- [profile-summary](profile-summary.md) — prerequisite; provides the profile data this skill analyzes
-- [outreach-drafting](outreach-drafting.md) — uses the hook output in the message opening line
+- [profile-summary](./`profile-summary.instructions.md) — prerequisite; provides the profile data this skill analyzes
+- [outreach-drafting](./`outreach-drafting.instructions.md) — uses the hook output in the message opening line
 
 ---
 
 ## References
 
-- [outreach-best-practices](../references/outreach-best-practices.md) — personalization depth benchmarks
-- [profile-evaluation-criteria](../references/profile-evaluation-criteria.md) — reading profile signals for hooks
+- [outreach-best-practices](../../../references/outreach-best-practices.md) — personalization depth benchmarks
+- [profile-evaluation-criteria](../../../references/profile-evaluation-criteria.md) — reading profile signals for hooks
 
 ---
 

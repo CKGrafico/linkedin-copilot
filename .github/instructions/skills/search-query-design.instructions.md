@@ -10,8 +10,8 @@ Teaches how to construct effective LinkedIn search queries using Boolean logic, 
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
@@ -70,7 +70,7 @@ Expect to iterate 2–3 times before the query is well-calibrated.
 
 ### 6. Document your final query
 
-Record the final working query in your session notes (see [note-taking](note-taking.md)). Good queries are reusable.
+Record the final working query in your session notes (see [note-taking](./`note-taking.instructions.md)). Good queries are reusable.
 
 ---
 
@@ -92,15 +92,15 @@ Record the final working query in your session notes (see [note-taking](note-tak
 
 ## Related Skills
 
-- [person-search](person-search.md) — applies these queries in a people search context
-- [job-search](job-search.md) — applies these queries in a jobs search context
+- [person-search](./`person-search.instructions.md) — applies these queries in a people search context
+- [job-search](./`job-search.instructions.md) — applies these queries in a jobs search context
 
 ---
 
 ## References
 
-- [search-patterns](../references/search-patterns.md) — proven query patterns for common LinkedIn search types
-- [linkedin-usage-patterns](../references/linkedin-usage-patterns.md) — how LinkedIn's search ranking works
+- [search-patterns](../../../references/search-patterns.md) — proven query patterns for common LinkedIn search types
+- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how LinkedIn's search ranking works
 
 ---
 

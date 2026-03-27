@@ -77,10 +77,10 @@ When viewing a recruiter's profile, check their "Activity" section:
 
 ## When Agents Should Consult This
 
-- [sourcer](../agents/sourcer.md) — interpreting recruiter profile signals during candidate evaluation
-- [headhunter](../agents/headhunter.md) — reading company hiring activity behind job postings
-- [skills/person-search.md](../skills/person-search.md) — applying signal assessment during candidate review
-- [skills/company-research.md](../skills/company-research.md) — reading company-level hiring patterns
+- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — interpreting recruiter profile signals during candidate evaluation
+- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — reading company hiring activity behind job postings
+- [.github/instructions/skills/person-search.instructions.md](../.github/instructions/skills/person-search.instructions.md) — applying signal assessment during candidate review
+- [.github/instructions/skills/company-research.instructions.md](../.github/instructions/skills/company-research.instructions.md) — reading company-level hiring patterns
 
 ---
 

@@ -18,19 +18,19 @@ An end-to-end guide for discovering, qualifying, and prioritizing job opportunit
 
 ## Participants
 
-- **Agent:** [headhunter](../agents/headhunter.md)
+- **Agent:** [headhunter](../.github/instructions/agents/headhunter.instructions.md)
 
 ---
 
 ## Skills Invoked
 
-- [search-query-design](../skills/search-query-design.md) — Step 2
-- [job-search](../skills/job-search.md) — Step 3
-- [opportunity-qualification](../skills/opportunity-qualification.md) — Step 4
-- [company-research](../skills/company-research.md) — Step 5
-- [lead-ranking](../skills/lead-ranking.md) — Step 6
-- [note-taking](../skills/note-taking.md) — Step 8
-- [follow-up-planning](../skills/follow-up-planning.md) — Step 9
+- [search-query-design](../.github/instructions/skills/search-query-design.instructions.md) — Step 2
+- [job-search](../.github/instructions/skills/job-search.instructions.md) — Step 3
+- [opportunity-qualification](../.github/instructions/skills/opportunity-qualification.instructions.md) — Step 4
+- [company-research](../.github/instructions/skills/company-research.instructions.md) — Step 5
+- [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md) — Step 6
+- [note-taking](../.github/instructions/skills/note-taking.instructions.md) — Step 8
+- [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md) — Step 9
 
 ---
 
@@ -52,35 +52,35 @@ An end-to-end guide for discovering, qualifying, and prioritizing job opportunit
 ### Step 2: Design job search queries
 
 **Agent:** headhunter
-**Skill used:** [search-query-design](../skills/search-query-design.md)
+**Skill used:** [search-query-design](../.github/instructions/skills/search-query-design.instructions.md)
 **Action:** Build Boolean queries for LinkedIn Jobs combining role title variants, domain keywords, and seniority signals. Identify the filter set to apply (recency, experience level, remote, company size).
 **Output:** 1–3 ready-to-use Boolean queries + filter list.
 
 ### Step 3: Execute job search
 
 **Agent:** headhunter
-**Skill used:** [job-search](../skills/job-search.md)
+**Skill used:** [job-search](../.github/instructions/skills/job-search.instructions.md)
 **Action:** Run queries in LinkedIn Jobs. Apply filters. Assess result quality on the first page. Build a raw opportunity list of results that pass the initial scan.
 **Output:** Raw opportunity list (10–25 postings).
 
 ### Step 4: Qualify each opportunity
 
 **Agent:** headhunter
-**Skill used:** [opportunity-qualification](../skills/opportunity-qualification.md)
+**Skill used:** [opportunity-qualification](../.github/instructions/skills/opportunity-qualification.instructions.md)
 **Action:** Apply hard filters to eliminate clear mismatches (role, location, non-negotiables, legitimacy, freshness). Score remaining opportunities on description quality, company signals, fit, and accessibility. Assign a decision: Apply now / Apply soon / Monitor / Research further / Skip.
 **Output:** Qualified opportunity list with decisions.
 
 ### Step 5: Research companies behind strong leads
 
 **Agent:** headhunter
-**Skill used:** [company-research](../skills/company-research.md)
+**Skill used:** [company-research](../.github/instructions/skills/company-research.instructions.md)
 **Action:** For each "Apply now" and "Research further" opportunity, produce a company snapshot: headcount signals, job posting activity, company page content, leadership stability, strategic fit.
 **Output:** Company snapshots attached to relevant opportunity entries.
 
 ### Step 6: Rank qualified opportunities
 
 **Agent:** headhunter
-**Skill used:** [lead-ranking](../skills/lead-ranking.md)
+**Skill used:** [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md)
 **Action:** Rank the qualified opportunity list across Role fit, Company fit, Opportunity quality, Accessibility, and Timing. Assign Priority 1 (apply now), Priority 2 (apply soon), or Monitor.
 **Output:** Ranked opportunity list.
 
@@ -90,20 +90,20 @@ An end-to-end guide for discovering, qualifying, and prioritizing job opportunit
 **Action:** For each Priority 1 and Priority 2 opportunity:
 - Identify whether an internal connection exists (if yes: warm application path)
 - Note the application method (Easy Apply vs. company website vs. direct contact)
-- Flag any opportunities where identifying a hiring manager via [`sourcer`](../agents/sourcer.md) would improve the approach
+- Flag any opportunities where identifying a hiring manager via [`sourcer`](../.github/instructions/agents/sourcer.instructions.md) would improve the approach
 **Output:** Opportunity list with next actions per entry.
 
 ### Step 8: Record session notes
 
 **Agent:** headhunter
-**Skill used:** [note-taking](../skills/note-taking.md)
+**Skill used:** [note-taking](../.github/instructions/skills/note-taking.instructions.md)
 **Action:** Record the full session: queries, filters, opportunity list with qualifications and decisions, open questions, company snapshots.
 **Output:** Structured session note (user-owned).
 
 ### Step 9: Plan follow-up
 
 **Agent:** headhunter
-**Skill used:** [follow-up-planning](../skills/follow-up-planning.md)
+**Skill used:** [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md)
 **Action:** Convert Priority 1 and Priority 2 opportunities into time-bound commitments: apply by [date], follow up after [date] if no ATS confirmation, check-in on "Monitor" items in [N] days.
 **Output:** Follow-up plan embedded in the session note.
 
@@ -122,10 +122,10 @@ A structured session note containing:
 
 ## Handoff
 
-- Opportunities requiring a warm contact: pass session note entry to [`sourcer`](../agents/sourcer.md) to find a hiring manager or internal connection
+- Opportunities requiring a warm contact: pass session note entry to [`sourcer`](../.github/instructions/agents/sourcer.instructions.md) to find a hiring manager or internal connection
 - Opportunities requiring deeper company research: pass to `company-scout` (future) or `researcher` (future)
 - Multiple opportunities needing comparison: run [workflows/compare-opportunities.md](compare-opportunities.md)
-- New job posting patterns discovered: flag via [templates/contributor-request.md](../templates/contributor-request.md) for [`contributor`](../agents/contributor.md)
+- New job posting patterns discovered: flag via [templates/contributor-request.md](../templates/contributor-request.md) for [`contributor`](../.github/instructions/agents/contributor.instructions.md)
 
 ---
 

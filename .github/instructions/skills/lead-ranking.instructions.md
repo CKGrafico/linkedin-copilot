@@ -10,8 +10,8 @@ Prioritizes a list of people or opportunities using weighted signals — turning
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
@@ -125,16 +125,16 @@ A ranked list with explicit priority tiers:
 
 ## Related Skills
 
-- [profile-summary](profile-summary.md) — produces the input data for people ranking
-- [opportunity-qualification](opportunity-qualification.md) — produces the input data for opportunity ranking
-- [follow-up-planning](follow-up-planning.md) — plans actions based on ranked output
+- [profile-summary](./`profile-summary.instructions.md) — produces the input data for people ranking
+- [opportunity-qualification](./`opportunity-qualification.instructions.md) — produces the input data for opportunity ranking
+- [follow-up-planning](./`follow-up-planning.instructions.md) — plans actions based on ranked output
 
 ---
 
 ## References
 
-- [sourcing-heuristics](../references/sourcing-heuristics.md) — signal definitions for people ranking
-- [job-search-heuristics](../references/job-search-heuristics.md) — quality signals for opportunity ranking
+- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signal definitions for people ranking
+- [job-search-heuristics](../../../references/job-search-heuristics.md) — quality signals for opportunity ranking
 
 ---
 

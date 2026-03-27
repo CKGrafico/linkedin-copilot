@@ -10,15 +10,15 @@ Provides the foundational patterns for operating LinkedIn through Browser MCP �
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 - *(all future agents that use Browser MCP)*
 
 ---
 
 ## Prerequisite
 
-Browser MCP must be installed and connected to your AI application. See [references/browser-mcp.md](../references/browser-mcp.md) for setup instructions. You must be logged into LinkedIn in your browser before starting any automated session.
+Browser MCP must be installed and connected to your AI application. See [references/browser-mcp.md](../../../references/browser-mcp.md) for setup instructions. You must be logged into LinkedIn in **Microsoft Edge** (or whichever browser has the extension installed) before starting any automated session.
 
 ---
 
@@ -44,7 +44,7 @@ Read the snapshot. If you see the LinkedIn feed, you are logged in and ready. If
 
 ### 2. Navigate to a destination
 
-Always navigate using direct URLs where possible (faster and more reliable than clicking through menus). See the URL patterns table in [references/browser-mcp.md](../references/browser-mcp.md).
+Always navigate using direct URLs where possible (faster and more reliable than clicking through menus). See the URL patterns table in [references/browser-mcp.md](../../../references/browser-mcp.md).
 
 After every `navigate` call:
 ```
@@ -153,7 +153,7 @@ Use `screenshot` sparingly — it is for visual confirmation when the accessibil
 If LinkedIn shows a CAPTCHA, security check, or rate-limit notice (check the snapshot for these), stop immediately:
 - Do not attempt to solve CAPTCHAs automatically
 - Report the stop to the user with the current state of any results collected so far
-- Save partial results using [note-taking](note-taking.md)
+- Save partial results using [note-taking](./`note-taking.instructions.md)
 
 ---
 
@@ -173,17 +173,17 @@ This skill produces navigation state (the agent is now on a specific page) rathe
 
 ## Related Skills
 
-- [person-search](person-search.md) — uses this skill for people search navigation
-- [job-search](job-search.md) — uses this skill for jobs search navigation
-- [profile-summary](profile-summary.md) — uses this skill to navigate to and read profiles
-- [company-research](company-research.md) — uses this skill to navigate to company pages
+- [person-search](./`person-search.instructions.md) — uses this skill for people search navigation
+- [job-search](./`job-search.instructions.md) — uses this skill for jobs search navigation
+- [profile-summary](./`profile-summary.instructions.md) — uses this skill to navigate to and read profiles
+- [company-research](./`company-research.instructions.md) — uses this skill to navigate to company pages
 
 ---
 
 ## References
 
-- [browser-mcp](../references/browser-mcp.md) — available tools, URL patterns, rate guidelines
-- [ethical-boundaries](../references/ethical-boundaries.md) — behavior limits for automated sessions
+- [browser-mcp](../../../references/browser-mcp.md) — available tools, URL patterns, rate guidelines
+- [ethical-boundaries](../../../references/ethical-boundaries.md) — behavior limits for automated sessions
 
 ---
 

@@ -10,8 +10,8 @@ Plans concrete next steps after a search or outreach session — what to follow 
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
@@ -25,7 +25,7 @@ At the end of any session that produced actionable output — a candidate list, 
 
 ### 1. Review the session output
 
-Start from the ranked output of [lead-ranking](lead-ranking.md) or the decisions from [opportunity-qualification](opportunity-qualification.md). Separate items into three buckets:
+Start from the ranked output of [lead-ranking](./`lead-ranking.instructions.md) or the decisions from [opportunity-qualification](./`opportunity-qualification.instructions.md). Separate items into three buckets:
 
 - **Act this week:** Priority 1 items. Concrete actions with a specific date.
 - **Act this month:** Priority 2 items. Scheduled but not urgent.
@@ -66,7 +66,7 @@ For job applications:
 
 ### 5. Record all plans in session notes
 
-All follow-up commitments should be written into the **Next actions** section of the session note (see [note-taking](note-taking.md)). They should be specific enough that they can be executed without recalling the session.
+All follow-up commitments should be written into the **Next actions** section of the session note (see [note-taking](./`note-taking.instructions.md)). They should be specific enough that they can be executed without recalling the session.
 
 ---
 
@@ -101,14 +101,14 @@ A structured follow-up plan embedded in the session note:
 
 ## Related Skills
 
-- [lead-ranking](lead-ranking.md) — produces the prioritized list this skill plans around
-- [note-taking](note-taking.md) — the follow-up plan is embedded in the session note
+- [lead-ranking](./`lead-ranking.instructions.md) — produces the prioritized list this skill plans around
+- [note-taking](./`note-taking.instructions.md) — the follow-up plan is embedded in the session note
 
 ---
 
 ## References
 
-- [outreach-best-practices](../references/outreach-best-practices.md) — follow-up cadence norms
+- [outreach-best-practices](../../../references/outreach-best-practices.md) — follow-up cadence norms
 
 ---
 

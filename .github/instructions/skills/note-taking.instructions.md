@@ -10,8 +10,8 @@ Provides a structured format for recording the output of any agent session — w
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 - *(all future agents)*
 
 ---
@@ -51,7 +51,7 @@ Record all queries tried, including ones that were discarded and why.
 
 ### 3. Record results
 
-For people searches (use [profile-summary](profile-summary.md) format for each entry):
+For people searches (use [profile-summary](./`profile-summary.instructions.md) format for each entry):
 
 ```
 ## Candidates found
@@ -64,7 +64,7 @@ For people searches (use [profile-summary](profile-summary.md) format for each e
 - Notes: [anything worth remembering]
 ```
 
-For job searches (use [opportunity-qualification](opportunity-qualification.md) output format):
+For job searches (use [opportunity-qualification](./`opportunity-qualification.instructions.md) output format):
 
 ```
 ## Opportunities found
@@ -120,9 +120,9 @@ A structured Markdown note following the template above. Store it outside the re
 
 ## Related Skills
 
-- [follow-up-planning](follow-up-planning.md) — uses the next actions section as its starting point
-- [profile-summary](profile-summary.md) — provides the per-candidate entry format used in the results section
-- [opportunity-qualification](opportunity-qualification.md) — provides the per-opportunity format used in results
+- [follow-up-planning](./`follow-up-planning.instructions.md) — uses the next actions section as its starting point
+- [profile-summary](./`profile-summary.instructions.md) — provides the per-candidate entry format used in the results section
+- [opportunity-qualification](./`opportunity-qualification.instructions.md) — provides the per-opportunity format used in results
 
 ---
 

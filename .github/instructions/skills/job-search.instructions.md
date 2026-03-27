@@ -10,19 +10,19 @@ Guides execution of an effective LinkedIn Jobs search: selecting filters, evalua
 
 ## Used By
 
-- [headhunter](../agents/headhunter.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
 ## When to Apply
 
-After job search queries have been designed using [search-query-design](search-query-design.md) and the user is ready to execute the search in LinkedIn Jobs. This skill governs what to do once results appear.
+After job search queries have been designed using [search-query-design](./`search-query-design.instructions.md) and the user is ready to execute the search in LinkedIn Jobs. This skill governs what to do once results appear.
 
 ---
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to LinkedIn Jobs
 
@@ -33,7 +33,7 @@ snapshot
 ```
 
 Confirm the Jobs search page loaded (you will see a list of job cards).
-If LinkedIn asks you to log in, follow the login flow from [browser-navigation](browser-navigation.md).
+If LinkedIn asks you to log in, follow the login flow from [browser-navigation](./`browser-navigation.instructions.md).
 
 ### 2. Enter or refine the query
 
@@ -124,7 +124,7 @@ Review the first 10 results:
 - Are the companies recognizable or at least real-sounding?
 - Are posting dates recent (within your filter)?
 
-If quality is low, refine the query. Use [search-query-design](search-query-design.md).
+If quality is low, refine the query. Use [search-query-design](./`search-query-design.instructions.md).
 
 ### 4. Evaluate each promising posting
 
@@ -167,13 +167,13 @@ Record each viable opportunity:
 - Fit assessment (initial)
 - Red flags or questions
 
-Pass the list to [opportunity-qualification](opportunity-qualification.md) for deeper evaluation.
+Pass the list to [opportunity-qualification](./`opportunity-qualification.instructions.md) for deeper evaluation.
 
 ---
 
 ## Input Requirements
 
-- Ready-to-use Boolean query (from [search-query-design](search-query-design.md))
+- Ready-to-use Boolean query (from [search-query-design](./`search-query-design.instructions.md))
 - Role targets, seniority, geography, remote preference
 - Any company or industry preferences or exclusions
 
@@ -193,19 +193,19 @@ A raw opportunity list, to be qualified further:
 
 ## Related Skills
 
-- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
-- [search-query-design](search-query-design.md) — prerequisite; designs the queries this skill executes
-- [opportunity-qualification](opportunity-qualification.md) — next step; evaluates each result in depth
-- [company-research](company-research.md) — used when a company needs deeper investigation
+- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
+- [search-query-design](./`search-query-design.instructions.md) — prerequisite; designs the queries this skill executes
+- [opportunity-qualification](./`opportunity-qualification.instructions.md) — next step; evaluates each result in depth
+- [company-research](./`company-research.instructions.md) — used when a company needs deeper investigation
 
 ---
 
 ## References
 
-- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [job-search-heuristics](../references/job-search-heuristics.md) — what makes a posting worth pursuing
-- [recruiter-signals](../references/recruiter-signals.md) — reading company hiring activity patterns
-- [search-patterns](../references/search-patterns.md) — reliable search patterns by use case
+- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [job-search-heuristics](../../../references/job-search-heuristics.md) — what makes a posting worth pursuing
+- [recruiter-signals](../../../references/recruiter-signals.md) — reading company hiring activity patterns
+- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
 
 ---
 

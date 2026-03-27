@@ -10,8 +10,8 @@ Extracts the most relevant information from a LinkedIn profile into a compact, s
 
 ## Used By
 
-- [sourcer](../agents/sourcer.md)
-- [headhunter](../agents/headhunter.md)
+- [sourcer](../agents/sourcer.instructions.md)
+- [headhunter](../agents/headhunter.instructions.md)
 
 ---
 
@@ -23,7 +23,7 @@ When you need to evaluate a person's profile quickly and accurately — whether 
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to the profile
 
@@ -33,7 +33,7 @@ wait: 3
 snapshot
 ```
 
-If you only have a name (not a URL), run a people search first using [person-search](person-search.md), then navigate to the profile URL from those results.
+If you only have a name (not a URL), run a people search first using [person-search](./`person-search.instructions.md), then navigate to the profile URL from those results.
 
 ### 2. Read the full profile via snapshot
 
@@ -120,7 +120,7 @@ Using the inputs you were given (target criteria), assess:
 
 ### 7. Compose the summary
 
-Produce a compact, structured summary (see output format below). This summary feeds into [lead-ranking](lead-ranking.md) and, if applicable, [message-personalization](message-personalization.md).
+Produce a compact, structured summary (see output format below). This summary feeds into [lead-ranking](./`lead-ranking.instructions.md) and, if applicable, [message-personalization](./`message-personalization.instructions.md).
 
 ---
 
@@ -149,17 +149,17 @@ Next action: [outreach / research further / skip / monitor]
 
 ## Related Skills
 
-- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
-- [lead-ranking](lead-ranking.md) — uses this summary as input for prioritization
-- [message-personalization](message-personalization.md) — uses the hooks identified here
+- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
+- [lead-ranking](./`lead-ranking.instructions.md) — uses this summary as input for prioritization
+- [message-personalization](./`message-personalization.instructions.md) — uses the hooks identified here
 
 ---
 
 ## References
 
-- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [profile-evaluation-criteria](../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
-- [sourcing-heuristics](../references/sourcing-heuristics.md) — signals that indicate a high-value contact
+- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [profile-evaluation-criteria](../../../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
+- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signals that indicate a high-value contact
 
 ---
 
