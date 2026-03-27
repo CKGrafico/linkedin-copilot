@@ -4,19 +4,19 @@
 
 ## What This Skill Does
 
-Evaluates whether a job posting or professional opportunity is worth pursuing given the user's stated criteria, applying a structured rubric to separate real opportunities from noise.
+Evaluates whether a job posting or professional opportunity is worth pursuing given the userrs stated criteria, applying a structured rubric to separate real opportunities from noise.
 
 ---
 
 ## Used By
 
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
 ## When to Apply
 
-After initial job search results have been gathered using [job-search](./`job-search.instructions.md), before ranking. This skill takes raw results and determines which ones deserve further investment of time.
+After initial job search results have been gathered using [job-search((./rjob-search.instructions.md), before ranking. This skill takes raw results and determines which ones deserve further investment of time.
 
 ---
 
@@ -26,11 +26,11 @@ After initial job search results have been gathered using [job-search](./`job-se
 
 These are binary pass/fail checks. If a posting fails any hard filter, mark it **Skip** and move on.
 
-- [ ] **Role match:** Does the job title and description match the user's target role type at the stated seniority level?
-- [ ] **Location match:** Is the location (or remote status) within the user's stated constraints?
-- [ ] **Non-negotiables:** Does the posting satisfy all hard filters the user specified (e.g., minimum compensation if stated, no relocation required)?
-- [ ] **Company legitimacy:** Is the company real, verifiable, and actively operating? (Check LinkedIn company page — does it exist? Does it have employees?)
-- [ ] **Posting freshness:** Was it posted within the user's acceptable window? (Default: reject anything older than 45 days without other strong signals.)
+- [ ( **Role match:** Does the job title and description match the userrs target role type at the stated seniority level?
+- [ ( **Location match:** Is the location (or remote status) within the userrs stated constraints?
+- [ ( **Non-negotiables:** Does the posting satisfy all hard filters the user specified (e.g., minimum compensation if stated, no relocation required)?
+- [ ( **Company legitimacy:** Is the company real, verifiable, and actively operating? (Check LinkedIn company page — does it exist? Does it have employees?)
+- [ ( **Posting freshness:** Was it posted within the userrs acceptable window? (Default: reject anything older than 45 days without other strong signals.)
 
 ### 2. Score the opportunity on soft signals
 
@@ -65,12 +65,12 @@ Based on hard filters and soft signal rating:
 - **Apply now:** Strong fit, fresh posting, real company, accessible.
 - **Apply soon:** Good fit, minor concerns (slightly old, no internal contact), worth acting on this week.
 - **Monitor:** Interesting but something is unclear or a concern exists. Re-evaluate in 7 days.
-- **Research further:** Looks promising but needs more information before deciding (use [company-research](./`company-research.instructions.md)).
+- **Research further:** Looks promising but needs more information before deciding (use [company-research((./rcompany-research.instructions.md)).
 - **Skip:** Failed hard filter, or soft signals are predominantly negative.
 
 ### 4. Document the qualification
 
-Record each decision in session notes using [note-taking](./`note-taking.instructions.md):
+Record each decision in session notes using [note-taking((./rnote-taking.instructions.md):
 - Opportunity name and company
 - Qualification decision and 1-sentence rationale
 - Any flags or open questions
@@ -80,34 +80,34 @@ Record each decision in session notes using [note-taking](./`note-taking.instruc
 ## Input Requirements
 
 - The job posting content: title, company, description, requirements, date posted, applicant count (if visible)
-- The user's stated criteria: target roles, non-negotiables, nice-to-haves, location constraints
+- The userrs stated criteria: target roles, non-negotiables, nice-to-haves, location constraints
 
 ---
 
 ## Output Format
 
 For each opportunity:
-```
-Title: [Job Title] at [Company]
+rrr
+Title: [Job Title( at [Company(
 Decision: Apply now / Apply soon / Monitor / Research further / Skip
-Rationale: [1–2 sentences]
-Flags: [any concerns or open questions]
-```
+Rationale: [1–2 sentences(
+Flags: [any concerns or open questions(
+rrr
 
 ---
 
 ## Related Skills
 
-- [job-search](./`job-search.instructions.md) — produces the raw results this skill qualifies
-- [company-research](./`company-research.instructions.md) — used when "Research further" decision is made
-- [lead-ranking](./`lead-ranking.instructions.md) — used after qualification to prioritize the "apply" list
+- [job-search((./rjob-search.instructions.md) — produces the raw results this skill qualifies
+- [company-research((./rcompany-research.instructions.md) — used when "Research further" decision is made
+- [lead-ranking((./rlead-ranking.instructions.md) — used after qualification to prioritize the "apply" list
 
 ---
 
 ## References
 
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — detailed signals for posting quality
-- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — how to assess a company
+- [job-search-heuristics((../../../references/job-search-heuristics.md) — detailed signals for posting quality
+- [company-evaluation-criteria((../../../references/company-evaluation-criteria.md) — how to assess a company
 
 ---
 

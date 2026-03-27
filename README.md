@@ -6,7 +6,7 @@
 
 ## What this is
 
-`linkedin-copilot` is a personal operating system for LinkedIn — made entirely of Markdown files. There is no code, no database, no API. The repo is a collection of AI-readable agent instructions, reusable skill modules, workflow guides, and reference documents. You give an AI model the relevant files as context, and those files tell it exactly who it is, what to do, and how to do it.
+rlinkedin-copilotr is a personal operating system for LinkedIn — made entirely of Markdown files. There is no code, no database, no API. The repo is a collection of AI-readable agent instructions, reusable skill modules, workflow guides, and reference documents. You give an AI model the relevant files as context, and those files tell it exactly who it is, what to do, and how to do it.
 
 This is a serious personal knowledge-work system, not a toy.
 
@@ -20,19 +20,19 @@ A single personal user managing their own LinkedIn presence: job searching, sour
 
 ## How to use it
 
-1. Choose an agent from [`AGENTS.md`](AGENTS.md) that matches your goal.
-2. Open the agent's file from `agents/` and read its **When to Use** section to confirm it is the right tool.
+1. Choose an agent from [rAGENTS.mdr((AGENTS.md) that matches your goal.
+2. Open the agentrs file from ragents/r and read its **When to Use** section to confirm it is the right tool.
 3. Give the agent file — and any referenced skill or reference files — to your AI model as context.
 4. State your request in natural language.
-5. Capture the output using the structured note format from [`.agents/skills/note-taking/SKILL.md`](.agents/skills/note-taking/SKILL.md).
+5. Capture the output using the structured note format from [r.agents/skills/note-taking/SKILL.mdr((.agents/skills/note-taking/SKILL.md).
 
-To request changes to the repo (new agents, updated references, new skills), use the [`templates/contributor-request.md`](templates/contributor-request.md) template and invoke the `contributor` agent.
+To request changes to the repo (new agents, updated references, new skills), use the [rtemplates/contributor-request.mdr((templates/contributor-request.md) template and invoke the rcontributorr agent.
 
 ---
 
 ## Repository structure
 
-```
+rrr
 linkedin-copilot/
 ├── README.md               ← you are here
 ├── AGENTS.md               ← master index of all agents
@@ -46,7 +46,7 @@ linkedin-copilot/
 ├── references/             ← factual LinkedIn knowledge base
 ├── templates/              ← blank scaffolds for new files
 └── governance/             ← rules and conventions for contributor
-```
+rrr
 
 ---
 
@@ -54,11 +54,11 @@ linkedin-copilot/
 
 | Agent | What it does |
 |---|---|
-| [`contributor`](.agents/agents/contributor/AGENT.md) | Maintains, organizes, and evolves the repo |
-| [`sourcer`](.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn |
-| [`headhunter`](.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities |
+| [rcontributorr((.agents/agents/contributor/AGENT.md) | Maintains, organizes, and evolves the repo |
+| [rsourcerr((.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn |
+| [rheadhunterr((.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities |
 
-See [`AGENTS.md`](AGENTS.md) for the full catalog including planned future agents.
+See [rAGENTS.mdr((AGENTS.md) for the full catalog including planned future agents.
 
 ---
 
@@ -68,14 +68,14 @@ This repo is built on a few hard rules:
 
 - **Markdown only.** No code, YAML, JSON, or scripts.
 - **One file, one purpose.** Each file does exactly one thing.
-- **Skills are shared.** Reusable instructions live in `skills/`, not duplicated inside agent docs.
-- **Only `contributor` edits the repo.** User-facing agents consume knowledge; they do not rewrite it.
-- **Every file has a status.** `draft`, `active`, `deprecated`, or `archived` — always visible.
+- **Skills are shared.** Reusable instructions live in rskills/r, not duplicated inside agent docs.
+- **Only rcontributorr edits the repo.** User-facing agents consume knowledge; they do not rewrite it.
+- **Every file has a status.** rdraftr, ractiver, rdeprecatedr, or rarchivedr — always visible.
 
-See [`governance/`](governance/) for the full rulebook.
+See [rgovernance/r((governance/) for the full rulebook.
 
 ---
 
 ## Maintenance
 
-This repo is maintained by the [`contributor`](.agents/agents/contributor/AGENT.md) agent. To request a change, use [`templates/contributor-request.md`](templates/contributor-request.md).
+This repo is maintained by the [rcontributorr((.agents/agents/contributor/AGENT.md) agent. To request a change, use [rtemplates/contributor-request.mdr((templates/contributor-request.md).

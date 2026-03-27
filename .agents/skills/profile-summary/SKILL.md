@@ -10,38 +10,38 @@ Extracts the most relevant information from a LinkedIn profile into a compact, s
 
 ## Used By
 
-- [sourcer](../../agents/sourcer/AGENT.md)
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [sourcer((../../agents/sourcer/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
 ## When to Apply
 
-When you need to evaluate a person's profile quickly and accurately — whether assessing a sourced candidate, researching a company contact, or preparing to reach out. Apply before making any decision about whether to pursue, contact, or skip someone.
+When you need to evaluate a personrs profile quickly and accurately — whether assessing a sourced candidate, researching a company contact, or preparing to reach out. Apply before making any decision about whether to pursue, contact, or skip someone.
 
 ---
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation((./rbrowser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to the profile
 
-```
-navigate: https://www.linkedin.com/in/[profile-slug]
+rrr
+navigate: https://www.linkedin.com/in/[profile-slug(
 wait: 3
 snapshot
-```
+rrr
 
-If you only have a name (not a URL), run a people search first using [person-search](./`person-search.instructions.md), then navigate to the profile URL from those results.
+If you only have a name (not a URL), run a people search first using [person-search((./rperson-search.instructions.md), then navigate to the profile URL from those results.
 
 ### 2. Read the full profile via snapshot
 
-```
+rrr
 snapshot
-```
+rrr
 
-The snapshot returns the page's accessibility tree. Extract from it:
+The snapshot returns the pagers accessibility tree. Extract from it:
 - Headline and current role
 - Experience section (all entries)
 - Activity feed (recent posts/comments if visible)
@@ -51,21 +51,21 @@ The snapshot returns the page's accessibility tree. Extract from it:
 
 If the page is long and the snapshot is truncated, scroll:
 
-```
+rrr
 press_key: End
 wait: 2
 snapshot
-```
+rrr
 
 ### 3. Return to the previous page
 
 After reading:
 
-```
+rrr
 go_back
 wait: 2
 snapshot
-```
+rrr
 
 ---
 
@@ -73,7 +73,7 @@ snapshot
 
 ### 1. Read the headline and current role first
 
-The headline is the person's self-selected professional identity. Read it carefully:
+The headline is the personrs self-selected professional identity. Read it carefully:
 - Does the title match your target type?
 - Is there a value proposition or specialization stated? (e.g., "Recruiting for deep tech | Series A–C")
 - Does the headline use keywords that signal fit or misfit?
@@ -120,7 +120,7 @@ Using the inputs you were given (target criteria), assess:
 
 ### 7. Compose the summary
 
-Produce a compact, structured summary (see output format below). This summary feeds into [lead-ranking](./`lead-ranking.instructions.md) and, if applicable, [message-personalization](./`message-personalization.instructions.md).
+Produce a compact, structured summary (see output format below). This summary feeds into [lead-ranking((./rlead-ranking.instructions.md) and, if applicable, [message-personalization((./rmessage-personalization.instructions.md).
 
 ---
 
@@ -133,33 +133,33 @@ Produce a compact, structured summary (see output format below). This summary fe
 
 ## Output Format
 
-```
-Name: [Full Name]
-Current role: [Title] at [Company] (approx. [tenure])
-Trajectory: [brief 1-line description: e.g., "5 years in recruiting, last 2 in fintech, recently promoted to Senior TA Manager"]
-Activity: [active / moderate / dormant] — last seen: [approximate date or signal]
-Degree: [1st / 2nd (mutual: [name]) / 3rd+]
-Shared context: [school / former employer / group / none]
-Fit: [strong / moderate / weak] — [one sentence rationale]
-Hooks: [1–2 personalization hooks for outreach]
-Next action: [outreach / research further / skip / monitor]
-```
+rrr
+Name: [Full Name(
+Current role: [Title( at [Company( (approx. [tenure()
+Trajectory: [brief 1-line description: e.g., "5 years in recruiting, last 2 in fintech, recently promoted to Senior TA Manager"(
+Activity: [active / moderate / dormant( — last seen: [approximate date or signal(
+Degree: [1st / 2nd (mutual: [name() / 3rd+(
+Shared context: [school / former employer / group / none(
+Fit: [strong / moderate / weak( — [one sentence rationale(
+Hooks: [1–2 personalization hooks for outreach(
+Next action: [outreach / research further / skip / monitor(
+rrr
 
 ---
 
 ## Related Skills
 
-- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
-- [lead-ranking](./`lead-ranking.instructions.md) — uses this summary as input for prioritization
-- [message-personalization](./`message-personalization.instructions.md) — uses the hooks identified here
+- [browser-navigation((./rbrowser-navigation.instructions.md) — foundational browser operation patterns
+- [lead-ranking((./rlead-ranking.instructions.md) — uses this summary as input for prioritization
+- [message-personalization((./rmessage-personalization.instructions.md) — uses the hooks identified here
 
 ---
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [profile-evaluation-criteria](../../../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signals that indicate a high-value contact
+- [browser-mcp((../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [profile-evaluation-criteria((../../../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
+- [sourcing-heuristics((../../../references/sourcing-heuristics.md) — signals that indicate a high-value contact
 
 ---
 
@@ -167,7 +167,7 @@ Next action: [outreach / research further / skip / monitor]
 
 - Profiles with little content are not automatically low-value. Some highly effective professionals maintain minimal profiles.
 - Do not conflate low activity with low interest. Some people are active off-platform.
-- Profile information may be outdated. If the current role's start date is very recent, some details may not yet be reflected.
+- Profile information may be outdated. If the current rolers start date is very recent, some details may not yet be reflected.
 - Respect privacy. Note only what is publicly displayed. Do not infer sensitive information.
 
 ---

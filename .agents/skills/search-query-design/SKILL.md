@@ -10,8 +10,8 @@ Teaches how to construct effective LinkedIn search queries using Boolean logic, 
 
 ## Used By
 
-- [sourcer](../../agents/sourcer/AGENT.md)
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [sourcer((../../agents/sourcer/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
@@ -37,23 +37,23 @@ Identify 2–4 core terms that strong results will reliably contain. For people:
 ### 3. Build a Boolean query
 
 Combine keywords using Boolean operators:
-- `AND` — both terms must be present (narrows results)
-- `OR` — either term is acceptable (broadens results, use for synonyms)
-- `NOT` — exclude results containing this term
+- rANDr — both terms must be present (narrows results)
+- rORr — either term is acceptable (broadens results, use for synonyms)
+- rNOTr — exclude results containing this term
 
 Example for a recruiter search:
-```
+rrr
 ("technical recruiter" OR "engineering recruiter" OR "talent acquisition") AND (fintech OR "financial technology") NOT agency
-```
+rrr
 
 Example for a job search:
-```
+rrr
 ("product manager" OR "product lead") AND (B2B OR SaaS) AND (senior OR "lead" OR "principal") NOT "entry level"
-```
+rrr
 
 ### 4. Use LinkedIn filters to narrow
 
-Boolean queries work best combined with LinkedIn's built-in filters:
+Boolean queries work best combined with LinkedInrs built-in filters:
 - **People search filters:** connections (1st/2nd/3rd+), location, current company, past company, industry, school
 - **Jobs filters:** date posted, experience level, company size, job type (full-time/contract), remote
 
@@ -70,7 +70,7 @@ Expect to iterate 2–3 times before the query is well-calibrated.
 
 ### 6. Document your final query
 
-Record the final working query in your session notes (see [note-taking](./`note-taking.instructions.md)). Good queries are reusable.
+Record the final working query in your session notes (see [note-taking((./rnote-taking.instructions.md)). Good queries are reusable.
 
 ---
 
@@ -92,22 +92,22 @@ Record the final working query in your session notes (see [note-taking](./`note-
 
 ## Related Skills
 
-- [person-search](./`person-search.instructions.md) — applies these queries in a people search context
-- [job-search](./`job-search.instructions.md) — applies these queries in a jobs search context
+- [person-search((./rperson-search.instructions.md) — applies these queries in a people search context
+- [job-search((./rjob-search.instructions.md) — applies these queries in a jobs search context
 
 ---
 
 ## References
 
-- [search-patterns](../../../references/search-patterns.md) — proven query patterns for common LinkedIn search types
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how LinkedIn's search ranking works
+- [search-patterns((../../../references/search-patterns.md) — proven query patterns for common LinkedIn search types
+- [linkedin-usage-patterns((../../../references/linkedin-usage-patterns.md) — how LinkedInrs search ranking works
 
 ---
 
 ## Notes and Caveats
 
-- LinkedIn's Boolean support is inconsistent. Always test queries before trusting them.
-- Quoted phrases (`"technical recruiter"`) are more reliable than unquoted multi-word terms.
+- LinkedInrs Boolean support is inconsistent. Always test queries before trusting them.
+- Quoted phrases (r"technical recruiter"r) are more reliable than unquoted multi-word terms.
 - LinkedIn caps search results at 1,000 for free accounts. If your query returns more, tighten it.
 - Keywords are matched against the full profile or job description, not just the headline. This means results can include people whose title does not match but whose profile mentions the keyword.
 

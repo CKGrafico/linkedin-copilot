@@ -10,7 +10,7 @@ Researches a company using LinkedIn signals to produce a compact assessment: siz
 
 ## Used By
 
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
@@ -22,23 +22,23 @@ When a specific company needs evaluation — either as a job application target,
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation((./rbrowser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to the company page
 
-```
-navigate: https://www.linkedin.com/company/[company-slug]/
+rrr
+navigate: https://www.linkedin.com/company/[company-slug(/
 wait: 3
 snapshot
-```
+rrr
 
-To find the correct company slug, navigate to LinkedIn and search for the company name, then use the URL of the company's LinkedIn page.
+To find the correct company slug, navigate to LinkedIn and search for the company name, then use the URL of the companyrs LinkedIn page.
 
 ### 2. Read the overview snapshot
 
-```
+rrr
 snapshot
-```
+rrr
 
 Extract from the overview tab:
 - Company name and industry
@@ -50,37 +50,37 @@ Extract from the overview tab:
 
 ### 3. Check company posts
 
-```
-click: [Posts tab]
+rrr
+click: [Posts tab(
 wait: 2
 snapshot
-```
+rrr
 
 Read recent posts for activity signals, culture indicators, and growth announcements.
 
 ### 4. Check open jobs
 
-```
-click: [Jobs tab]
+rrr
+click: [Jobs tab(
 wait: 2
 snapshot
-```
+rrr
 
 Read the number of open roles, recency of postings, and which departments are hiring.
 
 ### 5. Return
 
-```
+rrr
 go_back
 wait: 2
 snapshot
-```
+rrr
 
 ---
 
 ## Instructions (without Browser MCP)
 
-### 1. Find the company's LinkedIn page
+### 1. Find the companyrs LinkedIn page
 
 Search for the company directly. Verify you have the right entity (some companies have subsidiaries or similarly-named competitors). Note:
 - Full legal name and common name
@@ -98,7 +98,7 @@ LinkedIn shows employee count and headcount growth over time (if available):
 
 ### 3. Review recent company posts
 
-Scroll the company's "Posts" tab:
+Scroll the companyrs "Posts" tab:
 - Has the company posted in the last 30 days? (activity signal)
 - Are they announcing new hires, product launches, funding, partnerships? (growth signal)
 - What tone and culture does the content project?
@@ -108,7 +108,7 @@ No posts in 3+ months is a yellow flag. No posts ever on the company page is a r
 
 ### 4. Check current job postings
 
-On the company's LinkedIn page, check "Jobs":
+On the companyrs LinkedIn page, check "Jobs":
 - How many open roles are listed?
 - Are roles recent (posted in last 30 days)?
 - Is hiring concentrated in one department (e.g., all sales, all engineering)?
@@ -118,7 +118,7 @@ Multiple recent postings across departments = sustained growth. One isolated pos
 
 ### 5. Review notable employees and leadership
 
-Search for the company's key leaders:
+Search for the companyrs key leaders:
 - Is the leadership team stable? (Recent CxO departures can indicate turbulence)
 - Are there visible employees in the target department you could connect with?
 - Any alumni from companies you respect? (Culture/quality signal)
@@ -138,33 +138,33 @@ Produce a company snapshot using the output format below. Use this to inform the
 
 ## Output Format
 
-```
-Company: [Name]
-Industry: [sector]
-Size: [headcount range from LinkedIn] — [growing / flat / declining]
-HQ: [location] | Remote posture: [remote-friendly / hybrid / on-site]
-Activity: [active / moderate / dormant] — last post: [approximate date]
-Hiring signals: [brief summary of current hiring activity]
-Culture signals: [brief summary from posts and content]
-Red flags: [any concerns]
-Strategic fit: [strong / moderate / weak] — [1-sentence rationale]
-```
+rrr
+Company: [Name(
+Industry: [sector(
+Size: [headcount range from LinkedIn( — [growing / flat / declining(
+HQ: [location( | Remote posture: [remote-friendly / hybrid / on-site(
+Activity: [active / moderate / dormant( — last post: [approximate date(
+Hiring signals: [brief summary of current hiring activity(
+Culture signals: [brief summary from posts and content(
+Red flags: [any concerns(
+Strategic fit: [strong / moderate / weak( — [1-sentence rationale(
+rrr
 
 ---
 
 ## Related Skills
 
-- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
-- [opportunity-qualification](./`opportunity-qualification.instructions.md) — uses this assessment as input for the "Research further" path
-- [lead-ranking](./`lead-ranking.instructions.md) — company quality contributes to opportunity ranking
+- [browser-navigation((./rbrowser-navigation.instructions.md) — foundational browser operation patterns
+- [opportunity-qualification((./ropportunity-qualification.instructions.md) — uses this assessment as input for the "Research further" path
+- [lead-ranking((./rlead-ranking.instructions.md) — company quality contributes to opportunity ranking
 
 ---
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
-- [recruiter-signals](../../../references/recruiter-signals.md) — reading hiring activity patterns
+- [browser-mcp((../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [company-evaluation-criteria((../../../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
+- [recruiter-signals((../../../references/recruiter-signals.md) — reading hiring activity patterns
 
 ---
 

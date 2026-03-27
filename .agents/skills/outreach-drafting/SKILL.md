@@ -11,13 +11,13 @@ Provides a framework for drafting effective LinkedIn outreach messages: choosing
 ## Used By
 
 - *(outreach-writer — future agent)*
-- [sourcer](../../agents/sourcer/AGENT.md) *(when preparing initial contact notes)*
+- [sourcer((../../agents/sourcer/AGENT.md) *(when preparing initial contact notes)*
 
 ---
 
 ## When to Apply
 
-When preparing to send a LinkedIn message to someone — whether a connection request note, a direct message, or an InMail. Apply after [profile-summary](./`profile-summary.instructions.md) has been completed and personalization hooks have been identified.
+When preparing to send a LinkedIn message to someone — whether a connection request note, a direct message, or an InMail. Apply after [profile-summary((./rprofile-summary.instructions.md) has been completed and personalization hooks have been identified.
 
 ---
 
@@ -48,9 +48,9 @@ Follow this structure regardless of message type:
 
 **Bridge (1 sentence):** Connect the opening observation to why you are reaching out. This is the logical link between "why I noticed you" and "why I am writing."
 
-**Purpose (1–2 sentences):** State clearly what you are asking for or proposing. Be direct. Vague asks ("I'd love to connect") are less effective than specific ones ("I'd love 20 minutes to hear about your experience hiring at X stage").
+**Purpose (1–2 sentences):** State clearly what you are asking for or proposing. Be direct. Vague asks ("Ird love to connect") are less effective than specific ones ("Ird love 20 minutes to hear about your experience hiring at X stage").
 
-**Close (1 sentence):** A low-friction call to action. Make it easy to say yes or no. "Happy to hop on a quick call, or if email is easier — [email]" is better than "let me know what you think."
+**Close (1 sentence):** A low-friction call to action. Make it easy to say yes or no. "Happy to hop on a quick call, or if email is easier — [email(" is better than "let me know what you think."
 
 ### 3. Calibrate length
 
@@ -64,7 +64,7 @@ Follow this structure regardless of message type:
 
 ### 4. Apply personalization
 
-Before sending, verify the message includes at least one specific detail unique to this recipient. Generic messages are immediately recognizable and get lower response rates. For personalization techniques, see [message-personalization](./`message-personalization.instructions.md).
+Before sending, verify the message includes at least one specific detail unique to this recipient. Generic messages are immediately recognizable and get lower response rates. For personalization techniques, see [message-personalization((./rmessage-personalization.instructions.md).
 
 ### 5. Write the call to action correctly
 
@@ -75,16 +75,16 @@ A good call to action:
 
 A bad call to action:
 - "Let me know your thoughts" (vague, no clear ask)
-- "I'd love to pick your brain" (clichéd, no specific value proposition)
+- "Ird love to pick your brain" (clichéd, no specific value proposition)
 - "Please let me know when you are available" (puts effort on them)
 
 ---
 
 ## Input Requirements
 
-- The recipient's profile summary (from [profile-summary](./`profile-summary.instructions.md))
+- The recipientrs profile summary (from [profile-summary((./rprofile-summary.instructions.md))
 - The purpose of the outreach (what are you asking for?)
-- Personalization hooks (from [message-personalization](./`message-personalization.instructions.md))
+- Personalization hooks (from [message-personalization((./rmessage-personalization.instructions.md))
 - Message type (connection request / direct message / InMail)
 
 ---
@@ -100,22 +100,22 @@ A complete draft message, labeled with:
 
 ## Related Skills
 
-- [profile-summary](./`profile-summary.instructions.md) — provides the recipient context needed before drafting
-- [message-personalization](./`message-personalization.instructions.md) — provides the personalization hooks used in the opening
+- [profile-summary((./rprofile-summary.instructions.md) — provides the recipient context needed before drafting
+- [message-personalization((./rmessage-personalization.instructions.md) — provides the personalization hooks used in the opening
 
 ---
 
 ## References
 
-- [outreach-best-practices](../../../references/outreach-best-practices.md) — what makes outreach effective vs. ignored
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — acceptable outreach volume and behavior
+- [outreach-best-practices((../../../references/outreach-best-practices.md) — what makes outreach effective vs. ignored
+- [ethical-boundaries((../../../references/ethical-boundaries.md) — acceptable outreach volume and behavior
 
 ---
 
 ## Notes and Caveats
 
 - Never use a message template unchanged. Templates are starting points, not finished messages.
-- Avoid common phrases that signal a generic message: "I came across your profile," "I hope this message finds you well," "I'd love to connect."
+- Avoid common phrases that signal a generic message: "I came across your profile," "I hope this message finds you well," "Ird love to connect."
 - Do not follow up more than once if there is no response to a cold message. One follow-up after 7–10 days is acceptable. Beyond that, move on.
 
 ---

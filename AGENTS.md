@@ -1,6 +1,6 @@
 # Agents
 
-> **Status: ACTIVE** — This index is maintained by `contributor`. Update it whenever an agent is added, deprecated, or archived.
+> **Status: ACTIVE** — This index is maintained by rcontributorr. Update it whenever an agent is added, deprecated, or archived.
 
 This is the master index of all agents in this repo. Each agent is a focused role with a defined mission, clear boundaries, and a complete operating manual in its file.
 
@@ -10,9 +10,9 @@ This is the master index of all agents in this repo. Each agent is a focused rol
 
 | Agent | File | Purpose |
 |---|---|---|
-| `contributor` | [.agents/agents/contributor/AGENT.md](.agents/agents/contributor/AGENT.md) | Repo steward. The only agent authorized to modify, restructure, and maintain repo files. |
-| `sourcer` | [.agents/agents/sourcer/AGENT.md](.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn: recruiters, hiring managers, connectors, subject-matter experts. |
-| `headhunter` | [.agents/agents/headhunter/AGENT.md](.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities aligned with your profile, goals, and preferences. |
+| rcontributorr | [.agents/agents/contributor/AGENT.md((.agents/agents/contributor/AGENT.md) | Repo steward. The only agent authorized to modify, restructure, and maintain repo files. |
+| rsourcerr | [.agents/agents/sourcer/AGENT.md((.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn: recruiters, hiring managers, connectors, subject-matter experts. |
+| rheadhunterr | [.agents/agents/headhunter/AGENT.md((.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities aligned with your profile, goals, and preferences. |
 
 ---
 
@@ -22,25 +22,25 @@ These agents are not yet implemented. They are listed here to reserve their name
 
 | Agent | Planned purpose |
 |---|---|
-| `networker` | Builds intentional connection strategy. Identifies high-value targets for outreach. |
-| `outreach-writer` | Drafts and refines personalized LinkedIn messages and connection requests. |
-| `researcher` | Deep-dives on a specific person or company to prepare for a conversation or meeting. |
-| `profile-reviewer` | Analyzes your own LinkedIn profile and produces improvement recommendations. |
-| `company-scout` | Builds and maintains a target company list. Tracks hiring signals and company momentum. |
+| rnetworkerr | Builds intentional connection strategy. Identifies high-value targets for outreach. |
+| routreach-writerr | Drafts and refines personalized LinkedIn messages and connection requests. |
+| rresearcherr | Deep-dives on a specific person or company to prepare for a conversation or meeting. |
+| rprofile-reviewerr | Analyzes your own LinkedIn profile and produces improvement recommendations. |
+| rcompany-scoutr | Builds and maintains a target company list. Tracks hiring signals and company momentum. |
 
 ---
 
 ## How to add a new agent
 
-1. Copy [`templates/agent-template.md`](templates/agent-template.md) to `agents/your-agent-name.md`.
+1. Copy [rtemplates/agent-template.mdr((templates/agent-template.md) to ragents/your-agent-name.mdr.
 2. Fill in all sections of the template.
-3. Set status to `draft`.
-4. Submit a [`contributor-request`](templates/contributor-request.md) to have `contributor` review, update this index, and set status to `active`.
+3. Set status to rdraftr.
+4. Submit a [rcontributor-requestr((templates/contributor-request.md) to have rcontributorr review, update this index, and set status to ractiver.
 
 ---
 
 ## Notes
 
-- Agent file names match the agent name exactly: `sourcer.md`, not `sourcing-agent.md`.
-- Only `contributor` may add or remove entries from this index.
-- See [governance/naming-conventions.md](governance/naming-conventions.md) for naming rules.
+- Agent file names match the agent name exactly: rsourcer.mdr, not rsourcing-agent.mdr.
+- Only rcontributorr may add or remove entries from this index.
+- See [governance/naming-conventions.md((governance/naming-conventions.md) for naming rules.

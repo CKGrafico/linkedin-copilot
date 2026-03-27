@@ -10,8 +10,8 @@ Prioritizes a list of people or opportunities using weighted signals — turning
 
 ## Used By
 
-- [sourcer](../../agents/sourcer/AGENT.md)
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [sourcer((../../agents/sourcer/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
@@ -65,12 +65,12 @@ Evaluate each person across five dimensions. Use a **High / Medium / Low** ratin
 
 Evaluate each opportunity across five dimensions:
 
-**1. Role fit** — How well does the role match the user's target?
+**1. Role fit** — How well does the role match the userrs target?
 - High: title, responsibilities, and seniority are a strong match
 - Medium: good match with one stretch area
 - Low: requires significant skill gap or mismatched seniority
 
-**2. Company fit** — How aligned is the company with the user's preferences?
+**2. Company fit** — How aligned is the company with the userrs preferences?
 - High: target industry, size, stage, and culture match well
 - Medium: mostly aligned with one mismatch
 - Low: significant mismatch on a preference dimension
@@ -85,8 +85,8 @@ Evaluate each opportunity across five dimensions:
 - Medium: no contact but company is responsive and well-known
 - Low: no contact, small or unknown company, opaque process
 
-**5. Timing** — Is this opportunity well-timed for the user's situation?
-- High: aligns with user's target start date, company is in active hiring mode
+**5. Timing** — Is this opportunity well-timed for the userrs situation?
+- High: aligns with userrs target start date, company is in active hiring mode
 - Medium: reasonable timing with minor mismatches
 - Low: company is early-stage or uncertain, timing is unclear
 
@@ -97,7 +97,7 @@ Evaluate each opportunity across five dimensions:
 ## Input Requirements
 
 - A list of candidates or opportunities with profile summaries or qualification assessments already applied
-- The user's stated criteria and priorities
+- The userrs stated criteria and priorities
 
 ---
 
@@ -105,36 +105,36 @@ Evaluate each opportunity across five dimensions:
 
 A ranked list with explicit priority tiers:
 
-```
+rrr
 ## Priority 1 (Act now)
-1. [Name / Job Title] — [Fit: H, Signal: H, Access: M] — [1-sentence rationale]
+1. [Name / Job Title( — [Fit: H, Signal: H, Access: M( — [1-sentence rationale(
 2. ...
 
 ## Priority 2 (Act this week)
-3. [Name / Job Title] — [Fit: H, Signal: M, Access: L] — [1-sentence rationale]
+3. [Name / Job Title( — [Fit: H, Signal: M, Access: L( — [1-sentence rationale(
 4. ...
 
 ## Priority 3 (Monitor / Low effort)
 5. ...
 
 ## Skip
-- [Name / Job Title] — [reason for skipping]
-```
+- [Name / Job Title( — [reason for skipping(
+rrr
 
 ---
 
 ## Related Skills
 
-- [profile-summary](./`profile-summary.instructions.md) — produces the input data for people ranking
-- [opportunity-qualification](./`opportunity-qualification.instructions.md) — produces the input data for opportunity ranking
-- [follow-up-planning](./`follow-up-planning.instructions.md) — plans actions based on ranked output
+- [profile-summary((./rprofile-summary.instructions.md) — produces the input data for people ranking
+- [opportunity-qualification((./ropportunity-qualification.instructions.md) — produces the input data for opportunity ranking
+- [follow-up-planning((./rfollow-up-planning.instructions.md) — plans actions based on ranked output
 
 ---
 
 ## References
 
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signal definitions for people ranking
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — quality signals for opportunity ranking
+- [sourcing-heuristics((../../../references/sourcing-heuristics.md) — signal definitions for people ranking
+- [job-search-heuristics((../../../references/job-search-heuristics.md) — quality signals for opportunity ranking
 
 ---
 

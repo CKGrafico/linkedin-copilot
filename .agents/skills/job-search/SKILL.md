@@ -10,55 +10,55 @@ Guides execution of an effective LinkedIn Jobs search: selecting filters, evalua
 
 ## Used By
 
-- [headhunter](../../agents/headhunter/AGENT.md)
+- [headhunter((../../agents/headhunter/AGENT.md)
 
 ---
 
 ## When to Apply
 
-After job search queries have been designed using [search-query-design](./`search-query-design.instructions.md) and the user is ready to execute the search in LinkedIn Jobs. This skill governs what to do once results appear.
+After job search queries have been designed using [search-query-design((./rsearch-query-design.instructions.md) and the user is ready to execute the search in LinkedIn Jobs. This skill governs what to do once results appear.
 
 ---
 
 ## Browser MCP Automation
 
-Requires Browser MCP active. See [browser-navigation](./`browser-navigation.instructions.md) for setup and general patterns.
+Requires Browser MCP active. See [browser-navigation((./rbrowser-navigation.instructions.md) for setup and general patterns.
 
 ### 1. Navigate to LinkedIn Jobs
 
-```
-navigate: https://www.linkedin.com/jobs/search/?keywords=[encoded-query]&location=[encoded-location]
+rrr
+navigate: https://www.linkedin.com/jobs/search/?keywords=[encoded-query(&location=[encoded-location(
 wait: 3
 snapshot
-```
+rrr
 
 Confirm the Jobs search page loaded (you will see a list of job cards).
-If LinkedIn asks you to log in, follow the login flow from [browser-navigation](./`browser-navigation.instructions.md).
+If LinkedIn asks you to log in, follow the login flow from [browser-navigation((./rbrowser-navigation.instructions.md).
 
 ### 2. Enter or refine the query
 
 If navigating by URL did not set the query correctly:
 
-```
-click: [jobs search keywords field]
-type: [Boolean query from search-query-design]
+rrr
+click: [jobs search keywords field(
+type: [Boolean query from search-query-design(
 press_key: Enter
 wait: 3
 snapshot
-```
+rrr
 
 ### 3. Apply filters
 
 Apply filters in this order. For each filter:
 
-```
-click: [filter label — e.g., "Date posted"]
+rrr
+click: [filter label — e.g., "Date posted"(
 wait: 1
 snapshot
-click: [desired option — e.g., "Past week"]
+click: [desired option — e.g., "Past week"(
 wait: 2
 snapshot
-```
+rrr
 
 Apply in this order:
 1. **Date posted** — Start with "Past week"; expand to "Past month" if too few results
@@ -71,31 +71,31 @@ Apply in this order:
 
 For each job card visible in the snapshot:
 
-```
-click: [job card title]
+rrr
+click: [job card title(
 wait: 2
 snapshot
-```
+rrr
 
 Read the job details panel (title, company, location, description, applicant count, posted date).
 Record findings per output format below.
 Return to results:
 
-```
+rrr
 go_back
 wait: 2
 snapshot
-```
+rrr
 
 ### 5. Paginate
 
 If more results are needed:
 
-```
-click: [Next page button or page number]
+rrr
+click: [Next page button or page number(
 wait: 3
 snapshot
-```
+rrr
 
 Repeat until you have enough results or quality drops.
 
@@ -105,7 +105,7 @@ Repeat until you have enough results or quality drops.
 
 ### 1. Use LinkedIn Jobs, not the main search bar
 
-Navigate to LinkedIn Jobs directly (`linkedin.com/jobs`). The main search bar returns mixed results and less granular filtering. LinkedIn Jobs provides better recency filters, applicant count signals, and job-specific facets.
+Navigate to LinkedIn Jobs directly (rlinkedin.com/jobsr). The main search bar returns mixed results and less granular filtering. LinkedIn Jobs provides better recency filters, applicant count signals, and job-specific facets.
 
 ### 2. Apply filters immediately
 
@@ -124,7 +124,7 @@ Review the first 10 results:
 - Are the companies recognizable or at least real-sounding?
 - Are posting dates recent (within your filter)?
 
-If quality is low, refine the query. Use [search-query-design](./`search-query-design.instructions.md).
+If quality is low, refine the query. Use [search-query-design((./rsearch-query-design.instructions.md).
 
 ### 4. Evaluate each promising posting
 
@@ -167,13 +167,13 @@ Record each viable opportunity:
 - Fit assessment (initial)
 - Red flags or questions
 
-Pass the list to [opportunity-qualification](./`opportunity-qualification.instructions.md) for deeper evaluation.
+Pass the list to [opportunity-qualification((./ropportunity-qualification.instructions.md) for deeper evaluation.
 
 ---
 
 ## Input Requirements
 
-- Ready-to-use Boolean query (from [search-query-design](./`search-query-design.instructions.md))
+- Ready-to-use Boolean query (from [search-query-design((./rsearch-query-design.instructions.md))
 - Role targets, seniority, geography, remote preference
 - Any company or industry preferences or exclusions
 
@@ -193,19 +193,19 @@ A raw opportunity list, to be qualified further:
 
 ## Related Skills
 
-- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns
-- [search-query-design](./`search-query-design.instructions.md) — prerequisite; designs the queries this skill executes
-- [opportunity-qualification](./`opportunity-qualification.instructions.md) — next step; evaluates each result in depth
-- [company-research](./`company-research.instructions.md) — used when a company needs deeper investigation
+- [browser-navigation((./rbrowser-navigation.instructions.md) — foundational browser operation patterns
+- [search-query-design((./rsearch-query-design.instructions.md) — prerequisite; designs the queries this skill executes
+- [opportunity-qualification((./ropportunity-qualification.instructions.md) — next step; evaluates each result in depth
+- [company-research((./rcompany-research.instructions.md) — used when a company needs deeper investigation
 
 ---
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — what makes a posting worth pursuing
-- [recruiter-signals](../../../references/recruiter-signals.md) — reading company hiring activity patterns
-- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
+- [browser-mcp((../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [job-search-heuristics((../../../references/job-search-heuristics.md) — what makes a posting worth pursuing
+- [recruiter-signals((../../../references/recruiter-signals.md) — reading company hiring activity patterns
+- [search-patterns((../../../references/search-patterns.md) — reliable search patterns by use case
 
 ---
 

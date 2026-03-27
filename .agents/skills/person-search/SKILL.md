@@ -10,13 +10,13 @@ Executes an effective LinkedIn people search using Browser MCP — navigating to
 
 ## Used By
 
-- [sourcer](../../agents/sourcer/AGENT.md)
+- [sourcer((../../agents/sourcer/AGENT.md)
 
 ---
 
 ## When to Apply
 
-After queries have been designed using [search-query-design](./`search-query-design.instructions.md). Requires Browser MCP to be active and LinkedIn to be open in the browser. See [browser-navigation](./`browser-navigation.instructions.md) for setup.
+After queries have been designed using [search-query-design((./rsearch-query-design.instructions.md). Requires Browser MCP to be active and LinkedIn to be open in the browser. See [browser-navigation((./rbrowser-navigation.instructions.md) for setup.
 
 ---
 
@@ -24,35 +24,35 @@ After queries have been designed using [search-query-design](./`search-query-des
 
 ### 1. Open LinkedIn People search
 
-```
+rrr
 navigate: https://www.linkedin.com/search/results/people/
 wait: 2
 snapshot
-```
+rrr
 
 Confirm the People search page is loaded (you will see a search bar and filter options).
 
 ### 2. Enter the search query
 
-```
-click: [search bar / keywords input]
-type: [Boolean query from search-query-design]
+rrr
+click: [search bar / keywords input(
+type: [Boolean query from search-query-design(
 press_key: Enter
 wait: 3
 snapshot
-```
+rrr
 
 ### 3. Apply filters
 
 After the initial results load, apply filters in this order. For each filter:
-```
-click: [filter button label]
+rrr
+click: [filter button label(
 wait: 1
 snapshot
-[select option]
+[select option(
 wait: 2
 snapshot
-```
+rrr
 
 Recommended filter order:
 1. **Connections** — select 2nd degree first; expand to 3rd+ if results are thin
@@ -71,31 +71,31 @@ Read the snapshot of the first results page. Scan the 10 visible results:
 
 For each promising result on the page, open the profile and summarize it:
 
-```
-click: [person's name link]
+rrr
+click: [personrs name link(
 wait: 2
 snapshot
-```
+rrr
 
-Apply [profile-summary](./`profile-summary.instructions.md) to extract: role, trajectory, activity, connection degree, mutual connections, hooks.
+Apply [profile-summary((./rprofile-summary.instructions.md) to extract: role, trajectory, activity, connection degree, mutual connections, hooks.
 
 Then return to results:
-```
+rrr
 go_back
 wait: 2
 snapshot
-```
+rrr
 
 Repeat for each promising result. Skip profiles that are clearly mismatched based on the headline alone — do not open every profile.
 
 ### 6. Paginate if needed
 
 After reviewing all results on the current page:
-```
+rrr
 click: Next
 wait: 3
 snapshot
-```
+rrr
 
 Continue until you have 5–10 qualified candidates or have reviewed 3 pages with diminishing quality.
 
@@ -108,7 +108,7 @@ Within the same relevance level, prefer:
 
 ### 8. Build the candidate list
 
-Record each viable candidate using the output format below. Pass through [lead-ranking](./`lead-ranking.instructions.md) to prioritize.
+Record each viable candidate using the output format below. Pass through [lead-ranking((./rlead-ranking.instructions.md) to prioritize.
 
 ### 9. Know when to stop
 
@@ -117,13 +117,13 @@ Stop when you have:
 - Reviewed 3+ pages with diminishing quality, OR
 - Exhausted results for the current query
 
-If the list is too thin, return to [search-query-design](./`search-query-design.instructions.md) and broaden.
+If the list is too thin, return to [search-query-design((./rsearch-query-design.instructions.md) and broaden.
 
 ---
 
 ## Input Requirements
 
-- A ready-to-use Boolean query (from [search-query-design](./`search-query-design.instructions.md))
+- A ready-to-use Boolean query (from [search-query-design((./rsearch-query-design.instructions.md))
 - Targeting criteria (type, seniority, geography, company)
 - Any exclusion criteria
 
@@ -134,7 +134,7 @@ If the list is too thin, return to [search-query-design](./`search-query-design.
 A candidate list with per-entry structure:
 - **Name:** full name
 - **Role:** current title at current company
-- **Degree:** 1st / 2nd (mutual: [name]) / 3rd+
+- **Degree:** 1st / 2nd (mutual: [name() / 3rd+
 - **Key signals:** 1–3 bullet points on why this person is interesting
 - **Next action:** outreach / research further / skip / monitor
 
@@ -142,20 +142,20 @@ A candidate list with per-entry structure:
 
 ## Related Skills
 
-- [browser-navigation](./`browser-navigation.instructions.md) — foundational browser operation patterns used throughout this skill
-- [search-query-design](./`search-query-design.instructions.md) — prerequisite; designs the queries this skill executes
-- [profile-summary](./`profile-summary.instructions.md) — used during candidate review
-- [lead-ranking](./`lead-ranking.instructions.md) — used to prioritize the candidate list
+- [browser-navigation((./rbrowser-navigation.instructions.md) — foundational browser operation patterns used throughout this skill
+- [search-query-design((./rsearch-query-design.instructions.md) — prerequisite; designs the queries this skill executes
+- [profile-summary((./rprofile-summary.instructions.md) — used during candidate review
+- [lead-ranking((./rlead-ranking.instructions.md) — used to prioritize the candidate list
 
 ---
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — which signals indicate a valuable contact
-- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
+- [browser-mcp((../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [sourcing-heuristics((../../../references/sourcing-heuristics.md) — which signals indicate a valuable contact
+- [search-patterns((../../../references/search-patterns.md) — reliable search patterns by use case
+- [linkedin-usage-patterns((../../../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
+- [ethical-boundaries((../../../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
 
 ---
 

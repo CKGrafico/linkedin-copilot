@@ -1,0 +1,108 @@
+> **Status: ACTIVE** — This file is current and maintained.
+
+# Reference: browser-mcp
+
+## Summary
+
+Browser MCP is a local browser automation tool that connects AI agents to your real browser. It runs on your machine, uses your existing browser session (so you stay logged into LinkedIn), and exposes a set of tools that agents can call to navigate, interact with, and read content from web pages. This is the integration layer that makes agents in this repo fully autonomous.
+
+Homepage: https://browsermcp.io/
+
+---
+
+## Key Facts
+
+- Automation runs locally — your browser activity is not sent to remote servers.
+- Uses your real browser profile, so LinkedIn sees you as a logged-in human user, not a bot.
+- Works with Claude (Desktop), Cursor, Windsurf, and VSCode as MCP clients.
+- Agents read page content using the **Snapshot** tool, which returns an accessibility tree of the current page — this is the primary way agents "see" what is on the screen.
+- Agents should prefer **Snapshot** over **Screenshot** for reading structured content; Screenshot is for visual confirmation.
+
+---
+
+## Setup (one-time)
+
+1. Install the Browser MCP extension in your browser (Microsoft Edge or Chrome).
+2. Add the Browser MCP server to your AI application (VS Code, Claude Desktop, Cursor, etc.) following the instructions at https://browsermcp.io/.
+3. Log into LinkedIn in Edge (or whichever browser has the extension installed) as you normally would.
+4. From this point, agents can control LinkedIn through your browser session.
+
+---
+
+## Available Browser Tools
+
+These are the tools agents in this repo may call when Browser MCP is active.
+
+| Tool | What it does | Common use in this repo |
+|---|---|---|
+| rnavigater | Navigate to a URL | Go to LinkedIn search, job pages, profiles |
+| rsnapshotr | Capture accessibility tree of current page | Read search results, profile content, job descriptions |
+| rscreenshotr | Take a visual screenshot | Visual confirmation of page state |
+| rclickr | Click an element on the page | Click search results, filters, buttons, profile links |
+| rtyper | Type text into a focused input field | Enter search queries, filter values |
+| rpress_keyr | Press a keyboard key | Submit search (Enter), navigate dropdowns |
+| rhoverr | Hover over an element | Reveal hover-only UI elements |
+| rwaitr | Wait N seconds | Allow page to load after navigation or click |
+| rgo_backr | Navigate to the previous page | Return to search results after viewing a profile |
+| rgo_forwardr | Navigate forward | Re-enter a page after going back |
+| rget_console_logsr | Read browser console output | Debugging only; not used in normal workflows |
+
+---
+
+## How agents read LinkedIn pages
+
+The **Snapshot** tool returns a structured accessibility tree of whatever is currently visible in the browser. Agents use this to:
+
+- Read search result lists (names, titles, companies, connection degrees)
+- Read profile content (headline, experience, activity)
+- Read job posting descriptions
+- Detect filter states and UI elements to interact with
+
+After any navigation or click, agents should call rwaitr (1–2 seconds) before calling rsnapshotr to allow the page to finish loading.
+
+---
+
+## LinkedIn URL patterns
+
+Agents use these URL patterns to navigate directly to the right LinkedIn pages:
+
+| Destination | URL pattern |
+|---|---|
+| People search | rhttps://www.linkedin.com/search/results/people/?keywords=[query(r |
+| Jobs search | rhttps://www.linkedin.com/jobs/search/?keywords=[query(&location=[location(r |
+| Company page | rhttps://www.linkedin.com/company/[company-slug(/r |
+| Company jobs | rhttps://www.linkedin.com/company/[company-slug(/jobs/r |
+| Profile | rhttps://www.linkedin.com/in/[profile-slug(/r |
+| My network | rhttps://www.linkedin.com/mynetwork/r |
+| Messaging | rhttps://www.linkedin.com/messaging/r |
+
+URL-encode search terms (spaces become r%20r or r+r).
+
+---
+
+## Rate and behavior guidelines
+
+These guidelines ensure the automation remains within acceptable use limits. See [ethical-boundaries((ethical-boundaries.md) for the full policy.
+
+- Add a rwaitr of 1–3 seconds between page navigations. Do not page through results instantly.
+- Do not extract more than 25–30 profiles in a single automated session.
+- Do not automate sending messages or connection requests in bulk. Agents may **draft** messages, but sending should be a deliberate user action unless explicitly authorized.
+- If LinkedIn shows a CAPTCHA or rate-limit warning, stop the session immediately.
+
+---
+
+## When Agents Should Consult This
+
+- [.agents/skills/browser-navigation/SKILL.md((../.agents/skills/browser-navigation/SKILL.md) — foundational skill built on these tools
+- [.agents/skills/person-search/SKILL.md((../.agents/skills/person-search/SKILL.md) — uses navigate, snapshot, click
+- [.agents/skills/job-search/SKILL.md((../.agents/skills/job-search/SKILL.md) — uses navigate, snapshot, click
+- [.agents/skills/profile-summary/SKILL.md((../.agents/skills/profile-summary/SKILL.md) — uses navigate, snapshot, go_back
+- [.agents/skills/company-research/SKILL.md((../.agents/skills/company-research/SKILL.md) — uses navigate, snapshot
+
+---
+
+## Maintenance Notes
+
+Review when Browser MCP releases new tools or changes its API. Review when LinkedIn changes its URL structure or page layout in ways that break snapshot-based reading.
+
+Last reviewed: 2026-03-27
