@@ -93,11 +93,11 @@ These guidelines ensure the automation remains within acceptable use limits. See
 
 ## When Agents Should Consult This
 
-- [.github/instructions/skills/browser-navigation.instructions.md](../.github/instructions/skills/browser-navigation.instructions.md) — foundational skill built on these tools
-- [.github/instructions/skills/person-search.instructions.md](../.github/instructions/skills/person-search.instructions.md) — uses navigate, snapshot, click
-- [.github/instructions/skills/job-search.instructions.md](../.github/instructions/skills/job-search.instructions.md) — uses navigate, snapshot, click
-- [.github/instructions/skills/profile-summary.instructions.md](../.github/instructions/skills/profile-summary.instructions.md) — uses navigate, snapshot, go_back
-- [.github/instructions/skills/company-research.instructions.md](../.github/instructions/skills/company-research.instructions.md) — uses navigate, snapshot
+- [.agents/skills/browser-navigation/SKILL.md](../.agents/skills/browser-navigation/SKILL.md) — foundational skill built on these tools
+- [.agents/skills/person-search/SKILL.md](../.agents/skills/person-search/SKILL.md) — uses navigate, snapshot, click
+- [.agents/skills/job-search/SKILL.md](../.agents/skills/job-search/SKILL.md) — uses navigate, snapshot, click
+- [.agents/skills/profile-summary/SKILL.md](../.agents/skills/profile-summary/SKILL.md) — uses navigate, snapshot, go_back
+- [.agents/skills/company-research/SKILL.md](../.agents/skills/company-research/SKILL.md) — uses navigate, snapshot
 
 ---
 

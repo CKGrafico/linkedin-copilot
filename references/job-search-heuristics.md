@@ -85,9 +85,9 @@ Note: applicant counts include "Easy Apply" submissions which tend to be lower q
 
 ## When Agents Should Consult This
 
-- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — primary reference for evaluating job postings
-- [.github/instructions/skills/job-search.instructions.md](../.github/instructions/skills/job-search.instructions.md) — uses these signals during posting review (step 4)
-- [.github/instructions/skills/opportunity-qualification.instructions.md](../.github/instructions/skills/opportunity-qualification.instructions.md) — uses these signals in the qualification rubric
+- [headhunter](../.agents/agents/headhunter/AGENT.md) — primary reference for evaluating job postings
+- [.agents/skills/job-search/SKILL.md](../.agents/skills/job-search/SKILL.md) — uses these signals during posting review (step 4)
+- [.agents/skills/opportunity-qualification/SKILL.md](../.agents/skills/opportunity-qualification/SKILL.md) — uses these signals in the qualification rubric
 
 ---
 

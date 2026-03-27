@@ -10,8 +10,8 @@ Provides the foundational patterns for operating LinkedIn through Browser MCP â€
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 - *(all future agents that use Browser MCP)*
 
 ---

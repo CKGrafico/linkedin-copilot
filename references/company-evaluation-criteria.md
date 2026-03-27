@@ -98,9 +98,9 @@ After gathering signals, assess on three axes:
 
 ## When Agents Should Consult This
 
-- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — assessing companies behind job postings
-- [.github/instructions/skills/company-research.instructions.md](../.github/instructions/skills/company-research.instructions.md) — applies these criteria during company research
-- [.github/instructions/skills/opportunity-qualification.instructions.md](../.github/instructions/skills/opportunity-qualification.instructions.md) — uses company signals in the soft signal evaluation
+- [headhunter](../.agents/agents/headhunter/AGENT.md) — assessing companies behind job postings
+- [.agents/skills/company-research/SKILL.md](../.agents/skills/company-research/SKILL.md) — applies these criteria during company research
+- [.agents/skills/opportunity-qualification/SKILL.md](../.agents/skills/opportunity-qualification/SKILL.md) — uses company signals in the soft signal evaluation
 
 ---
 

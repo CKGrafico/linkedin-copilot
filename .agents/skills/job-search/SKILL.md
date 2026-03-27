@@ -10,7 +10,7 @@ Guides execution of an effective LinkedIn Jobs search: selecting filters, evalua
 
 ## Used By
 
-- [headhunter](../agents/headhunter.instructions.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

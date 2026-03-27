@@ -20,7 +20,7 @@
 
 ## When Not to Use
 
-- You want to find job postings — use [`headhunter`](../agents/headhunter.instructions.md) instead.
+- You want to find job postings — use [`headhunter`](../../agents/headhunter/AGENT.md) instead.
 - You want to draft a message to someone you have already found — use `outreach-writer` (future) instead.
 - You want a deep profile analysis of one specific person — use `researcher` (future) instead.
 - You want to evaluate a company as a target — use `company-scout` (future) instead.
@@ -46,20 +46,20 @@ Provide as much targeting context as you can:
 
 - **Ranked candidate list:** Each entry includes name, current role, company, degree of connection, key signals, fit rationale, and recommended next action.
 - **Search query suggestions:** Boolean query strings you can use directly in LinkedIn search.
-- **Session notes:** Structured notes following the [note-taking skill](../skills/note-taking.instructions.md) format, ready to reuse in a follow-up session or hand off to another agent.
+- **Session notes:** Structured notes following the [note-taking skill](../../skills/note-taking/SKILL.md) format, ready to reuse in a follow-up session or hand off to another agent.
 
 ---
 
 ## Workflow
 
 1. Clarify targeting criteria with the user if inputs are vague. Ask focused questions.
-2. Design search queries using [search-query-design](../skills/search-query-design.instructions.md).
-3. Execute person search using [person-search](../skills/person-search.instructions.md).
-4. Summarize each promising result using [profile-summary](../skills/profile-summary.instructions.md).
-5. Rank the candidate list using [lead-ranking](../skills/lead-ranking.instructions.md).
+2. Design search queries using [search-query-design](../../skills/search-query-design/SKILL.md).
+3. Execute person search using [person-search](../../skills/person-search/SKILL.md).
+4. Summarize each promising result using [profile-summary](../../skills/profile-summary/SKILL.md).
+5. Rank the candidate list using [lead-ranking](../../skills/lead-ranking/SKILL.md).
 6. Assign a recommended next action to each candidate (outreach, monitor, skip).
-7. Record the session using [note-taking](../skills/note-taking.instructions.md).
-8. Plan follow-up steps using [follow-up-planning](../skills/follow-up-planning.instructions.md).
+7. Record the session using [note-taking](../../skills/note-taking/SKILL.md).
+8. Plan follow-up steps using [follow-up-planning](../../skills/follow-up-planning/SKILL.md).
 
 For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.md](../../../workflows/find-relevant-recruiters.md).
 
@@ -67,12 +67,12 @@ For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.m
 
 ## Skills Used
 
-- [search-query-design](../skills/search-query-design.instructions.md) — designing effective LinkedIn search queries
-- [person-search](../skills/person-search.instructions.md) — executing and refining the search
-- [profile-summary](../skills/profile-summary.instructions.md) — extracting key signals from each profile
-- [lead-ranking](../skills/lead-ranking.instructions.md) — prioritizing the candidate list
-- [note-taking](../skills/note-taking.instructions.md) — recording structured session output
-- [follow-up-planning](../skills/follow-up-planning.instructions.md) — planning next steps
+- [search-query-design](../../skills/search-query-design/SKILL.md) — designing effective LinkedIn search queries
+- [person-search](../../skills/person-search/SKILL.md) — executing and refining the search
+- [profile-summary](../../skills/profile-summary/SKILL.md) — extracting key signals from each profile
+- [lead-ranking](../../skills/lead-ranking/SKILL.md) — prioritizing the candidate list
+- [note-taking](../../skills/note-taking/SKILL.md) — recording structured session output
+- [follow-up-planning](../../skills/follow-up-planning/SKILL.md) — planning next steps
 
 ---
 
@@ -88,9 +88,9 @@ For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.m
 
 ## Guardrails
 
-- Must not edit any repo files directly. Route all repo updates through [`contributor`](../agents/contributor.instructions.md).
+- Must not edit any repo files directly. Route all repo updates through [`contributor`](../../agents/contributor/AGENT.md).
 - Must not generate outreach messages. Hand off to `outreach-writer` (future) for that.
-- Must not evaluate job postings. That is [`headhunter`](../agents/headhunter.instructions.md)'s domain.
+- Must not evaluate job postings. That is [`headhunter`](../../agents/headhunter/AGENT.md)'s domain.
 - Must not encourage volume-blasting or behavior that violates LinkedIn's terms. Consult [`references/ethical-boundaries.md`](../../../references/ethical-boundaries.md).
 - Must not fabricate profile details. Only summarize what is observable on the profile.
 
@@ -100,7 +100,7 @@ For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.m
 
 - If a candidate is ready for outreach, pass the candidate's session note entry to `outreach-writer` (future). See [governance/handoff-conventions.md](../../../governance/handoff-conventions.md).
 - If a candidate warrants deep research before outreach, pass the session note to `researcher` (future).
-- If a new sourcing heuristic or search pattern was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../agents/contributor.instructions.md).
+- If a new sourcing heuristic or search pattern was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
 
 ---
 

@@ -108,7 +108,7 @@ LinkedIn-specific vocabulary and platform concepts explained clearly for agents 
 ## When Agents Should Consult This
 
 - Any agent or skill file that needs to use platform-specific vocabulary accurately
-- Particularly relevant for: [.github/instructions/skills/search-query-design.instructions.md](../.github/instructions/skills/search-query-design.instructions.md), [.github/instructions/skills/outreach-drafting.instructions.md](../.github/instructions/skills/outreach-drafting.instructions.md)
+- Particularly relevant for: [.agents/skills/search-query-design/SKILL.md](../.agents/skills/search-query-design/SKILL.md), [.agents/skills/outreach-drafting/SKILL.md](../.agents/skills/outreach-drafting/SKILL.md)
 
 ---
 

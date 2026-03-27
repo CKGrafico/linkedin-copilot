@@ -11,7 +11,7 @@ Identifies personalization hooks in a recipient's LinkedIn profile — shared co
 ## Used By
 
 - *(outreach-writer — future agent)*
-- [sourcer](../agents/sourcer.instructions.md) *(when preparing contact notes)*
+- [sourcer](../../agents/sourcer/AGENT.md) *(when preparing contact notes)*
 
 ---
 

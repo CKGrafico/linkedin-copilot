@@ -17,14 +17,14 @@ A structured decision process for determining whether to accept or send a Linked
 
 ## Participants
 
-- **Agent:** [sourcer](../.github/instructions/agents/sourcer.instructions.md) *(for incoming or outgoing connection evaluation)*
+- **Agent:** [sourcer](../.agents/agents/sourcer/AGENT.md) *(for incoming or outgoing connection evaluation)*
 
 ---
 
 ## Skills Invoked
 
-- [profile-summary](../.github/instructions/skills/profile-summary.instructions.md) — Step 1
-- [note-taking](../.github/instructions/skills/note-taking.instructions.md) — Step 4
+- [profile-summary](../.agents/skills/profile-summary/SKILL.md) — Step 1
+- [note-taking](../.agents/skills/note-taking/SKILL.md) — Step 4
 
 ---
 
@@ -33,7 +33,7 @@ A structured decision process for determining whether to accept or send a Linked
 ### Step 1: Summarize the profile
 
 **Agent:** sourcer
-**Skill used:** [profile-summary](../.github/instructions/skills/profile-summary.instructions.md)
+**Skill used:** [profile-summary](../.agents/skills/profile-summary/SKILL.md)
 **Action:** Read the person's profile and produce a summary: current role, trajectory, activity signals, mutual connections, and any personalization hooks.
 **Output:** Profile summary.
 
@@ -71,7 +71,7 @@ A structured decision process for determining whether to accept or send a Linked
 ### Step 4: Record if notable
 
 **Agent:** sourcer
-**Skill used:** [note-taking](../.github/instructions/skills/note-taking.instructions.md)
+**Skill used:** [note-taking](../.agents/skills/note-taking/SKILL.md)
 **Action:** If the person is notable — a target company recruiter, a relevant hiring manager, a strong potential connector — record them in session notes even if no action is taken today.
 **Output:** Session note entry (optional, only if notable).
 

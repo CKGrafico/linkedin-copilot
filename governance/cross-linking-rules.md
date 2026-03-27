@@ -23,8 +23,8 @@ All links use **relative paths** from the current file's location.
 From a root file (e.g., `README.md`), links are relative to the root:
 
 ```markdown
-[sourcer](.github/instructions/agents/sourcer.instructions.md)
-[person-search](.github/instructions/skills/person-search.instructions.md)
+[sourcer](.agents/agents/sourcer/AGENT.md)
+[person-search](.agents/skills/person-search/SKILL.md)
 ```
 
 **Never use absolute paths.** Absolute paths break when the repo is moved or cloned.
@@ -36,7 +36,7 @@ From a root file (e.g., `README.md`), links are relative to the root:
 Use the **file's canonical name** (without the `.md` extension) as anchor text when the name is self-explanatory:
 
 ```markdown
-See [person-search](../.github/instructions/skills/person-search.instructions.md) for query construction.
+See [person-search](../.agents/skills/person-search/SKILL.md) for query construction.
 ```
 
 When the file name alone is ambiguous, use a short descriptive phrase:

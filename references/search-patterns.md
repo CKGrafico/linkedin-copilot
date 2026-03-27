@@ -4,7 +4,7 @@
 
 ## Summary
 
-Proven LinkedIn search patterns for common use cases — ready-to-adapt Boolean query templates, filter combinations, and search strategies for people and jobs search. Use as a starting library when designing queries with [.github/instructions/skills/search-query-design.instructions.md](../.github/instructions/skills/search-query-design.instructions.md).
+Proven LinkedIn search patterns for common use cases — ready-to-adapt Boolean query templates, filter combinations, and search strategies for people and jobs search. Use as a starting library when designing queries with [.agents/skills/search-query-design/SKILL.md](../.agents/skills/search-query-design/SKILL.md).
 
 ---
 
@@ -103,9 +103,9 @@ There is no direct "recently funded" filter on LinkedIn Jobs. Workaround:
 
 ## When Agents Should Consult This
 
-- [.github/instructions/skills/search-query-design.instructions.md](../.github/instructions/skills/search-query-design.instructions.md) — uses these patterns as starting templates
-- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — references for people search query construction
-- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — references for jobs search query construction
+- [.agents/skills/search-query-design/SKILL.md](../.agents/skills/search-query-design/SKILL.md) — uses these patterns as starting templates
+- [sourcer](../.agents/agents/sourcer/AGENT.md) — references for people search query construction
+- [headhunter](../.agents/agents/headhunter/AGENT.md) — references for jobs search query construction
 
 ---
 

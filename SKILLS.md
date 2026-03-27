@@ -10,18 +10,18 @@ This is the master index of all shared skills in this repo. A skill is a reusabl
 
 | Skill | File | What it does | Used by |
 |---|---|---|---|
-| `browser-navigation` | [.github/instructions/skills/browser-navigation.instructions.md](.github/instructions/skills/browser-navigation.instructions.md) | Foundational Browser MCP operation patterns: login check, navigate, snapshot, click, paginate | all browser-enabled skills |
-| `search-query-design` | [.github/instructions/skills/search-query-design.instructions.md](.github/instructions/skills/search-query-design.instructions.md) | Constructs effective LinkedIn search queries using Boolean operators, filters, and keyword strategies | `sourcer`, `headhunter` |
-| `person-search` | [.github/instructions/skills/person-search.instructions.md](.github/instructions/skills/person-search.instructions.md) | Searches for people on LinkedIn via Browser MCP: filter selection, result interpretation, lead identification | `sourcer` |
-| `job-search` | [.github/instructions/skills/job-search.instructions.md](.github/instructions/skills/job-search.instructions.md) | Searches for job postings via Browser MCP: parameters, freshness evaluation, noise filtering | `headhunter` |
-| `profile-summary` | [.github/instructions/skills/profile-summary.instructions.md](.github/instructions/skills/profile-summary.instructions.md) | Extracts key information from a LinkedIn profile via Browser MCP: role, trajectory, signals, fit indicators | `sourcer`, `headhunter` |
-| `opportunity-qualification` | [.github/instructions/skills/opportunity-qualification.instructions.md](.github/instructions/skills/opportunity-qualification.instructions.md) | Evaluates whether a job or opportunity is worth pursuing given stated criteria | `headhunter` |
-| `company-research` | [.github/instructions/skills/company-research.instructions.md](.github/instructions/skills/company-research.instructions.md) | Researches a company via Browser MCP: size, growth, hiring patterns, culture | `headhunter` |
-| `lead-ranking` | [.github/instructions/skills/lead-ranking.instructions.md](.github/instructions/skills/lead-ranking.instructions.md) | Ranks and prioritizes a list of people or opportunities using weighted signals | `sourcer`, `headhunter` |
-| `outreach-drafting` | [.github/instructions/skills/outreach-drafting.instructions.md](.github/instructions/skills/outreach-drafting.instructions.md) | Drafts effective LinkedIn outreach messages: structure, length, tone, call to action | *(outreach-writer, sourcer)* |
-| `message-personalization` | [.github/instructions/skills/message-personalization.instructions.md](.github/instructions/skills/message-personalization.instructions.md) | Personalizes messages using profile data: hooks, shared context, authentic connection points | *(outreach-writer)* |
-| `note-taking` | [.github/instructions/skills/note-taking.instructions.md](.github/instructions/skills/note-taking.instructions.md) | Records structured session outputs for reuse in future sessions | all agents |
-| `follow-up-planning` | [.github/instructions/skills/follow-up-planning.instructions.md](.github/instructions/skills/follow-up-planning.instructions.md) | Plans next steps and follow-up actions after a search or outreach session | `sourcer`, `headhunter` |
+| `browser-navigation` | [.agents/skills/browser-navigation/SKILL.md](.agents/skills/browser-navigation/SKILL.md) | Foundational Browser MCP operation patterns: login check, navigate, snapshot, click, paginate | all browser-enabled skills |
+| `search-query-design` | [.agents/skills/search-query-design/SKILL.md](.agents/skills/search-query-design/SKILL.md) | Constructs effective LinkedIn search queries using Boolean operators, filters, and keyword strategies | `sourcer`, `headhunter` |
+| `person-search` | [.agents/skills/person-search/SKILL.md](.agents/skills/person-search/SKILL.md) | Searches for people on LinkedIn via Browser MCP: filter selection, result interpretation, lead identification | `sourcer` |
+| `job-search` | [.agents/skills/job-search/SKILL.md](.agents/skills/job-search/SKILL.md) | Searches for job postings via Browser MCP: parameters, freshness evaluation, noise filtering | `headhunter` |
+| `profile-summary` | [.agents/skills/profile-summary/SKILL.md](.agents/skills/profile-summary/SKILL.md) | Extracts key information from a LinkedIn profile via Browser MCP: role, trajectory, signals, fit indicators | `sourcer`, `headhunter` |
+| `opportunity-qualification` | [.agents/skills/opportunity-qualification/SKILL.md](.agents/skills/opportunity-qualification/SKILL.md) | Evaluates whether a job or opportunity is worth pursuing given stated criteria | `headhunter` |
+| `company-research` | [.agents/skills/company-research/SKILL.md](.agents/skills/company-research/SKILL.md) | Researches a company via Browser MCP: size, growth, hiring patterns, culture | `headhunter` |
+| `lead-ranking` | [.agents/skills/lead-ranking/SKILL.md](.agents/skills/lead-ranking/SKILL.md) | Ranks and prioritizes a list of people or opportunities using weighted signals | `sourcer`, `headhunter` |
+| `outreach-drafting` | [.agents/skills/outreach-drafting/SKILL.md](.agents/skills/outreach-drafting/SKILL.md) | Drafts effective LinkedIn outreach messages: structure, length, tone, call to action | *(outreach-writer, sourcer)* |
+| `message-personalization` | [.agents/skills/message-personalization/SKILL.md](.agents/skills/message-personalization/SKILL.md) | Personalizes messages using profile data: hooks, shared context, authentic connection points | *(outreach-writer)* |
+| `note-taking` | [.agents/skills/note-taking/SKILL.md](.agents/skills/note-taking/SKILL.md) | Records structured session outputs for reuse in future sessions | all agents |
+| `follow-up-planning` | [.agents/skills/follow-up-planning/SKILL.md](.agents/skills/follow-up-planning/SKILL.md) | Plans next steps and follow-up actions after a search or outreach session | `sourcer`, `headhunter` |
 
 ---
 

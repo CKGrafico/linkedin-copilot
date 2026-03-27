@@ -21,8 +21,8 @@
 
 ## When Not to Use
 
-- You want to find people on LinkedIn — use [`sourcer`](../agents/sourcer.instructions.md) instead.
-- You want to find jobs — use [`headhunter`](../agents/headhunter.instructions.md) instead.
+- You want to find people on LinkedIn — use [`sourcer`](../../agents/sourcer/AGENT.md) instead.
+- You want to find jobs — use [`headhunter`](../../agents/headhunter/AGENT.md) instead.
 - You want to draft an outreach message — use `outreach-writer` (future) instead.
 - You have a general LinkedIn question with no repo implication. No agent needed — just ask your AI directly.
 

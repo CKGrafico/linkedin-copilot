@@ -10,8 +10,8 @@ Prioritizes a list of people or opportunities using weighted signals — turning
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

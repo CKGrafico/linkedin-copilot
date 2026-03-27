@@ -18,16 +18,16 @@ A structured process for comparing multiple job opportunities side by side and p
 
 ## Participants
 
-- **Agent:** [headhunter](../.github/instructions/agents/headhunter.instructions.md)
+- **Agent:** [headhunter](../.agents/agents/headhunter/AGENT.md)
 
 ---
 
 ## Skills Invoked
 
-- [opportunity-qualification](../.github/instructions/skills/opportunity-qualification.instructions.md) — Step 2 (if not already applied)
-- [company-research](../.github/instructions/skills/company-research.instructions.md) — Step 3 (if not already completed)
-- [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md) — Step 4
-- [note-taking](../.github/instructions/skills/note-taking.instructions.md) — Step 5
+- [opportunity-qualification](../.agents/skills/opportunity-qualification/SKILL.md) — Step 2 (if not already applied)
+- [company-research](../.agents/skills/company-research/SKILL.md) — Step 3 (if not already completed)
+- [lead-ranking](../.agents/skills/lead-ranking/SKILL.md) — Step 4
+- [note-taking](../.agents/skills/note-taking/SKILL.md) — Step 5
 
 ---
 
@@ -49,21 +49,21 @@ Ask the user to fill in any gaps. Do not proceed with incomplete information for
 ### Step 2: Qualify any unqualified opportunities
 
 **Agent:** headhunter
-**Skill used:** [opportunity-qualification](../.github/instructions/skills/opportunity-qualification.instructions.md)
+**Skill used:** [opportunity-qualification](../.agents/skills/opportunity-qualification/SKILL.md)
 **Action:** For any opportunity that has not yet been through the qualification process, apply the full rubric: hard filters first, then soft signal assessment.
 **Output:** Qualification decision and assessment for each opportunity.
 
 ### Step 3: Research any unresearched companies
 
 **Agent:** headhunter
-**Skill used:** [company-research](../.github/instructions/skills/company-research.instructions.md)
+**Skill used:** [company-research](../.agents/skills/company-research/SKILL.md)
 **Action:** For any opportunity without a company snapshot, produce one: headcount signals, job posting activity, leadership stability, cultural signals, strategic fit.
 **Output:** Company snapshot for each opportunity.
 
 ### Step 4: Rank opportunities
 
 **Agent:** headhunter
-**Skill used:** [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md)
+**Skill used:** [lead-ranking](../.agents/skills/lead-ranking/SKILL.md)
 **Action:** Apply the opportunity ranking framework across all five dimensions (Role fit, Company fit, Opportunity quality, Accessibility, Timing) for each opportunity. Produce a ranked order with tier assignments.
 **Output:** Ranked opportunity list.
 
@@ -93,7 +93,7 @@ After all individual entries, add a **Summary Recommendation:**
 
 ### Step 6: Record session notes
 
-**Skill used:** [note-taking](../.github/instructions/skills/note-taking.instructions.md)
+**Skill used:** [note-taking](../.agents/skills/note-taking/SKILL.md)
 **Action:** Record the comparison session: all opportunities evaluated, qualification decisions, company snapshots, final ranking, and recommended actions.
 **Output:** Session note.
 

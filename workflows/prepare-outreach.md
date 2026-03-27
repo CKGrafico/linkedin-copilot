@@ -19,7 +19,7 @@ An end-to-end guide for preparing a personalized LinkedIn outreach message for a
 ## Participants
 
 - **Agent:** `outreach-writer` (future) — primary
-- **Agent:** [sourcer](../.github/instructions/agents/sourcer.instructions.md) — if profile research is needed first
+- **Agent:** [sourcer](../.agents/agents/sourcer/AGENT.md) — if profile research is needed first
 
 *Until `outreach-writer` is implemented, sourcer can handle this workflow using its skills.*
 
@@ -27,11 +27,11 @@ An end-to-end guide for preparing a personalized LinkedIn outreach message for a
 
 ## Skills Invoked
 
-- [profile-summary](../.github/instructions/skills/profile-summary.instructions.md) — Step 1
-- [message-personalization](../.github/instructions/skills/message-personalization.instructions.md) — Step 2
-- [outreach-drafting](../.github/instructions/skills/outreach-drafting.instructions.md) — Step 3
-- [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md) — Step 5
-- [note-taking](../.github/instructions/skills/note-taking.instructions.md) — Step 6
+- [profile-summary](../.agents/skills/profile-summary/SKILL.md) — Step 1
+- [message-personalization](../.agents/skills/message-personalization/SKILL.md) — Step 2
+- [outreach-drafting](../.agents/skills/outreach-drafting/SKILL.md) — Step 3
+- [follow-up-planning](../.agents/skills/follow-up-planning/SKILL.md) — Step 5
+- [note-taking](../.agents/skills/note-taking/SKILL.md) — Step 6
 
 ---
 
@@ -40,21 +40,21 @@ An end-to-end guide for preparing a personalized LinkedIn outreach message for a
 ### Step 1: Summarize the recipient's profile
 
 **Agent:** outreach-writer (or sourcer)
-**Skill used:** [profile-summary](../.github/instructions/skills/profile-summary.instructions.md)
+**Skill used:** [profile-summary](../.agents/skills/profile-summary/SKILL.md)
 **Action:** Read the recipient's LinkedIn profile and produce a structured summary: current role, trajectory, activity signals, connection degree, mutual connections.
 **Output:** Profile summary including raw hook candidates.
 
 ### Step 2: Identify personalization hooks
 
 **Agent:** outreach-writer (or sourcer)
-**Skill used:** [message-personalization](../.github/instructions/skills/message-personalization.instructions.md)
+**Skill used:** [message-personalization](../.agents/skills/message-personalization/SKILL.md)
 **Action:** Work through the hook categories (shared context, recent content, career trajectory, company news) and identify the strongest genuine hook. Verify it is authentic and specific to this person.
 **Output:** Primary hook + hook sentence draft.
 
 ### Step 3: Draft the message
 
 **Agent:** outreach-writer (or sourcer)
-**Skill used:** [outreach-drafting](../.github/instructions/skills/outreach-drafting.instructions.md)
+**Skill used:** [outreach-drafting](../.agents/skills/outreach-drafting/SKILL.md)
 **Action:** Choose the message type (connection request note / direct message / InMail). Structure the message: opening (using the hook), bridge, purpose, close. Calibrate length. Write a clear, low-friction call to action.
 **Output:** Complete draft message.
 
@@ -75,7 +75,7 @@ If any check fails, revise the draft.
 ### Step 5: Plan the follow-up
 
 **Agent:** outreach-writer (or sourcer)
-**Skill used:** [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md)
+**Skill used:** [follow-up-planning](../.agents/skills/follow-up-planning/SKILL.md)
 **Action:** Define the follow-up plan:
 - If no response after 7–10 days: draft a brief follow-up (2–3 sentences, reference first message, offer graceful exit)
 - After follow-up: if still no response, mark as closed
@@ -84,7 +84,7 @@ If any check fails, revise the draft.
 
 ### Step 6: Record in session notes
 
-**Skill used:** [note-taking](../.github/instructions/skills/note-taking.instructions.md)
+**Skill used:** [note-taking](../.agents/skills/note-taking/SKILL.md)
 **Action:** Record the outreach in session notes: recipient name, role, company, date sent, message type, hook used, follow-up plan.
 **Output:** Session note entry.
 

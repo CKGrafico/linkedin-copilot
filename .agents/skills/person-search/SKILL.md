@@ -10,7 +10,7 @@ Executes an effective LinkedIn people search using Browser MCP — navigating to
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
 
 ---
 

@@ -24,7 +24,7 @@ A single personal user managing their own LinkedIn presence: job searching, sour
 2. Open the agent's file from `agents/` and read its **When to Use** section to confirm it is the right tool.
 3. Give the agent file — and any referenced skill or reference files — to your AI model as context.
 4. State your request in natural language.
-5. Capture the output using the structured note format from [`.github/instructions/skills/note-taking.instructions.md`](.github/instructions/skills/note-taking.instructions.md).
+5. Capture the output using the structured note format from [`.agents/skills/note-taking/SKILL.md`](.agents/skills/note-taking/SKILL.md).
 
 To request changes to the repo (new agents, updated references, new skills), use the [`templates/contributor-request.md`](templates/contributor-request.md) template and invoke the `contributor` agent.
 
@@ -54,9 +54,9 @@ linkedin-copilot/
 
 | Agent | What it does |
 |---|---|
-| [`contributor`](.github/instructions/agents/contributor.instructions.md) | Maintains, organizes, and evolves the repo |
-| [`sourcer`](.github/instructions/agents/sourcer.instructions.md) | Finds relevant people on LinkedIn |
-| [`headhunter`](.github/instructions/agents/headhunter.instructions.md) | Finds jobs and opportunities |
+| [`contributor`](.agents/agents/contributor/AGENT.md) | Maintains, organizes, and evolves the repo |
+| [`sourcer`](.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn |
+| [`headhunter`](.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities |
 
 See [`AGENTS.md`](AGENTS.md) for the full catalog including planned future agents.
 
@@ -78,4 +78,4 @@ See [`governance/`](governance/) for the full rulebook.
 
 ## Maintenance
 
-This repo is maintained by the [`contributor`](.github/instructions/agents/contributor.instructions.md) agent. To request a change, use [`templates/contributor-request.md`](templates/contributor-request.md).
+This repo is maintained by the [`contributor`](.agents/agents/contributor/AGENT.md) agent. To request a change, use [`templates/contributor-request.md`](templates/contributor-request.md).

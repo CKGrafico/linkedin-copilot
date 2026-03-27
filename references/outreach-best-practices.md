@@ -78,9 +78,9 @@ The relationship between message length and response rate is inverse for cold me
 
 ## When Agents Should Consult This
 
-- [.github/instructions/skills/outreach-drafting.instructions.md](../.github/instructions/skills/outreach-drafting.instructions.md) — primary skill that applies these practices
-- [.github/instructions/skills/follow-up-planning.instructions.md](../.github/instructions/skills/follow-up-planning.instructions.md) — uses the follow-up cadence norms
-- [.github/instructions/skills/message-personalization.instructions.md](../.github/instructions/skills/message-personalization.instructions.md) — uses personalization depth standards
+- [.agents/skills/outreach-drafting/SKILL.md](../.agents/skills/outreach-drafting/SKILL.md) — primary skill that applies these practices
+- [.agents/skills/follow-up-planning/SKILL.md](../.agents/skills/follow-up-planning/SKILL.md) — uses the follow-up cadence norms
+- [.agents/skills/message-personalization/SKILL.md](../.agents/skills/message-personalization/SKILL.md) — uses personalization depth standards
 
 ---
 

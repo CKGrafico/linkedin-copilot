@@ -10,7 +10,7 @@ Evaluates whether a job posting or professional opportunity is worth pursuing gi
 
 ## Used By
 
-- [headhunter](../agents/headhunter.instructions.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

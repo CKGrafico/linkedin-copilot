@@ -10,8 +10,8 @@ Extracts the most relevant information from a LinkedIn profile into a compact, s
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

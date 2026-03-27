@@ -20,7 +20,7 @@
 
 ## When Not to Use
 
-- You want to find specific people (recruiters, hiring managers) — use [`sourcer`](../agents/sourcer.instructions.md) instead.
+- You want to find specific people (recruiters, hiring managers) — use [`sourcer`](../../agents/sourcer/AGENT.md) instead.
 - You want to write application materials or cover letters — that is outside this repo's scope for now.
 - You want a deep dive on a specific company — use `company-scout` (future) instead.
 - You already have a job offer and want to evaluate it — use `researcher` (future) for due diligence.
@@ -47,21 +47,21 @@ Provide your targeting context as specifically as possible:
 - **Ranked opportunity list:** Each entry includes job title, company, posting date, fit assessment, key signals, and recommended action (apply, monitor, skip, research further).
 - **Company snapshots:** Brief summaries of each company in the results, highlighting hiring signals and fit.
 - **Search query suggestions:** Boolean queries for LinkedIn Jobs you can run directly.
-- **Session notes:** Structured notes following the [note-taking skill](../skills/note-taking.instructions.md) format.
+- **Session notes:** Structured notes following the [note-taking skill](../../skills/note-taking/SKILL.md) format.
 
 ---
 
 ## Workflow
 
 1. Clarify role and preference criteria if inputs are vague.
-2. Design job search queries using [search-query-design](../skills/search-query-design.instructions.md).
-3. Execute job search using [job-search](../skills/job-search.instructions.md).
-4. Qualify each result using [opportunity-qualification](../skills/opportunity-qualification.instructions.md).
-5. Research companies behind strong results using [company-research](../skills/company-research.instructions.md).
-6. Rank qualified opportunities using [lead-ranking](../skills/lead-ranking.instructions.md).
+2. Design job search queries using [search-query-design](../../skills/search-query-design/SKILL.md).
+3. Execute job search using [job-search](../../skills/job-search/SKILL.md).
+4. Qualify each result using [opportunity-qualification](../../skills/opportunity-qualification/SKILL.md).
+5. Research companies behind strong results using [company-research](../../skills/company-research/SKILL.md).
+6. Rank qualified opportunities using [lead-ranking](../../skills/lead-ranking/SKILL.md).
 7. Assign recommended actions (apply / monitor / skip / research further).
-8. Record session using [note-taking](../skills/note-taking.instructions.md).
-9. Plan follow-up steps using [follow-up-planning](../skills/follow-up-planning.instructions.md).
+8. Record session using [note-taking](../../skills/note-taking/SKILL.md).
+9. Plan follow-up steps using [follow-up-planning](../../skills/follow-up-planning/SKILL.md).
 
 For multi-opportunity comparison, see [workflows/compare-opportunities.md](../../../workflows/compare-opportunities.md).
 For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../../workflows/find-jobs-worth-applying.md).
@@ -70,13 +70,13 @@ For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../
 
 ## Skills Used
 
-- [search-query-design](../skills/search-query-design.instructions.md) — constructing effective job search queries
-- [job-search](../skills/job-search.instructions.md) — executing and refining the search
-- [opportunity-qualification](../skills/opportunity-qualification.instructions.md) — evaluating whether each result is worth pursuing
-- [company-research](../skills/company-research.instructions.md) — assessing companies behind strong leads
-- [lead-ranking](../skills/lead-ranking.instructions.md) — prioritizing the opportunity list
-- [note-taking](../skills/note-taking.instructions.md) — recording structured session output
-- [follow-up-planning](../skills/follow-up-planning.instructions.md) — planning next steps
+- [search-query-design](../../skills/search-query-design/SKILL.md) — constructing effective job search queries
+- [job-search](../../skills/job-search/SKILL.md) — executing and refining the search
+- [opportunity-qualification](../../skills/opportunity-qualification/SKILL.md) — evaluating whether each result is worth pursuing
+- [company-research](../../skills/company-research/SKILL.md) — assessing companies behind strong leads
+- [lead-ranking](../../skills/lead-ranking/SKILL.md) — prioritizing the opportunity list
+- [note-taking](../../skills/note-taking/SKILL.md) — recording structured session output
+- [follow-up-planning](../../skills/follow-up-planning/SKILL.md) — planning next steps
 
 ---
 
@@ -93,8 +93,8 @@ For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../
 
 ## Guardrails
 
-- Must not edit any repo files directly. Route all repo updates through [`contributor`](../agents/contributor.instructions.md).
-- Must not find or contact specific people. That is [`sourcer`](../agents/sourcer.instructions.md)'s domain.
+- Must not edit any repo files directly. Route all repo updates through [`contributor`](../../agents/contributor/AGENT.md).
+- Must not find or contact specific people. That is [`sourcer`](../../agents/sourcer/AGENT.md)'s domain.
 - Must not write application materials, cover letters, or resumes.
 - Must not speculate on salary or compensation beyond what is stated or publicly available.
 - Must not fabricate job details. Only summarize what the posting actually states.
@@ -103,9 +103,9 @@ For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../
 
 ## Handoff Rules
 
-- If a strong opportunity requires identifying the hiring manager or a relevant internal contact, hand off a session note entry to [`sourcer`](../agents/sourcer.instructions.md) for person discovery.
+- If a strong opportunity requires identifying the hiring manager or a relevant internal contact, hand off a session note entry to [`sourcer`](../../agents/sourcer/AGENT.md) for person discovery.
 - If a company warrants deeper investigation, flag it for `company-scout` (future) or `researcher` (future).
-- If a new job posting heuristic or company signal was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../agents/contributor.instructions.md).
+- If a new job posting heuristic or company signal was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
 - For multiple opportunities needing comparison, run the [compare-opportunities workflow](../../../workflows/compare-opportunities.md).
 
 ---

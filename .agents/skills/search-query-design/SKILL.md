@@ -10,8 +10,8 @@ Teaches how to construct effective LinkedIn search queries using Boolean logic, 
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

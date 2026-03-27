@@ -63,9 +63,9 @@ Practical implication: a highly relevant person with a sparse, dormant profile m
 
 ## When Agents Should Consult This
 
-- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — for understanding search ranking and outreach channel selection
-- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — for understanding job search visibility and company page signals
-- [.github/instructions/skills/search-query-design.instructions.md](../.github/instructions/skills/search-query-design.instructions.md) — for understanding how queries interact with ranking
+- [sourcer](../.agents/agents/sourcer/AGENT.md) — for understanding search ranking and outreach channel selection
+- [headhunter](../.agents/agents/headhunter/AGENT.md) — for understanding job search visibility and company page signals
+- [.agents/skills/search-query-design/SKILL.md](../.agents/skills/search-query-design/SKILL.md) — for understanding how queries interact with ranking
 
 ---
 

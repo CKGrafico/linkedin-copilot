@@ -18,17 +18,17 @@ A structured review process for keeping your active prospect and opportunity lis
 
 ## Participants
 
-- **Agent:** [sourcer](../.github/instructions/agents/sourcer.instructions.md) *(for people pipelines)*
-- **Agent:** [headhunter](../.github/instructions/agents/headhunter.instructions.md) *(for opportunity pipelines)*
+- **Agent:** [sourcer](../.agents/agents/sourcer/AGENT.md) *(for people pipelines)*
+- **Agent:** [headhunter](../.agents/agents/headhunter/AGENT.md) *(for opportunity pipelines)*
 - *(The agent depends on what type of pipeline is being reviewed. Both can be invoked in sequence.)*
 
 ---
 
 ## Skills Invoked
 
-- [note-taking](../.github/instructions/skills/note-taking.instructions.md) — Step 1 (reading prior notes)
-- [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md) — Steps 2–4
-- [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md) — Step 3 (re-prioritization)
+- [note-taking](../.agents/skills/note-taking/SKILL.md) — Step 1 (reading prior notes)
+- [follow-up-planning](../.agents/skills/follow-up-planning/SKILL.md) — Steps 2–4
+- [lead-ranking](../.agents/skills/lead-ranking/SKILL.md) — Step 3 (re-prioritization)
 
 ---
 
@@ -49,7 +49,7 @@ Look for:
 ### Step 2: Triage by urgency
 
 **Agent:** sourcer or headhunter
-**Skill used:** [follow-up-planning](../.github/instructions/skills/follow-up-planning.instructions.md)
+**Skill used:** [follow-up-planning](../.agents/skills/follow-up-planning/SKILL.md)
 **Action:** Sort all active items into four buckets:
 
 **Overdue:** Next action date has passed with no update.
@@ -69,7 +69,7 @@ Look for:
 ### Step 3: Re-rank active items
 
 **Agent:** sourcer or headhunter
-**Skill used:** [lead-ranking](../.github/instructions/skills/lead-ranking.instructions.md)
+**Skill used:** [lead-ranking](../.agents/skills/lead-ranking/SKILL.md)
 **Action:** Apply the ranking framework to the current active list. Priorities may have shifted since the last session:
 - Has a job posting aged out? Downgrade or close.
 - Has a person become more accessible? (Mutual connection appeared, posted something relevant) Upgrade.
@@ -90,7 +90,7 @@ Look for:
 
 ### Step 5: Update session notes
 
-**Skill used:** [note-taking](../.github/instructions/skills/note-taking.instructions.md)
+**Skill used:** [note-taking](../.agents/skills/note-taking/SKILL.md)
 **Action:** Produce an updated session note that reflects the current state of the pipeline:
 - Remove or archive closed items
 - Update status on active items

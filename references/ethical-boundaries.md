@@ -78,10 +78,10 @@ Beyond what LinkedIn prohibits, these practices reflect professional conduct:
 
 ## When Agents Should Consult This
 
-- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — Guardrails section cites this file
-- [headhunter](../.github/instructions/agents/headhunter.instructions.md) — Guardrails section cites this file
-- [.github/instructions/skills/outreach-drafting.instructions.md](../.github/instructions/skills/outreach-drafting.instructions.md) — Notes section cites this file
-- [.github/instructions/skills/follow-up-planning.instructions.md](../.github/instructions/skills/follow-up-planning.instructions.md) — follow-up cadence rules align with this file
+- [sourcer](../.agents/agents/sourcer/AGENT.md) — Guardrails section cites this file
+- [headhunter](../.agents/agents/headhunter/AGENT.md) — Guardrails section cites this file
+- [.agents/skills/outreach-drafting/SKILL.md](../.agents/skills/outreach-drafting/SKILL.md) — Notes section cites this file
+- [.agents/skills/follow-up-planning/SKILL.md](../.agents/skills/follow-up-planning/SKILL.md) — follow-up cadence rules align with this file
 - All future agents — Guardrails must reference this file
 
 ---

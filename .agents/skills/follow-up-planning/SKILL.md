@@ -10,8 +10,8 @@ Plans concrete next steps after a search or outreach session — what to follow 
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

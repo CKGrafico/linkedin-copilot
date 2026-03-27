@@ -1,6 +1,6 @@
 # Contributor Request
 
-> Use this template to request changes to the repo. Fill it in and give it to the `contributor` agent as context, along with `.github/instructions/agents/contributor.instructions.md`.
+> Use this template to request changes to the repo. Fill it in and give it to the `contributor` agent as context, along with `.agents/agents/contributor/AGENT.md`.
 
 ---
 
@@ -61,7 +61,7 @@
 ## Files affected
 
 <!-- List any files that need to be created, updated, or deprecated.
-     Use the full relative path: .github/instructions/agents/sourcer.instructions.md, .github/instructions/skills/person-search.instructions.md, etc. -->
+     Use the full relative path: .agents/agents/sourcer/AGENT.md, .agents/skills/person-search/SKILL.md, etc. -->
 
 - 
 

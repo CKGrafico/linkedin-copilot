@@ -10,7 +10,7 @@ Researches a company using LinkedIn signals to produce a compact assessment: siz
 
 ## Used By
 
-- [headhunter](../agents/headhunter.instructions.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 
 ---
 

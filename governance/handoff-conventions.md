@@ -8,7 +8,7 @@ Agents in this repo do not call each other programmatically. Handoffs happen thr
 
 ## Core principle
 
-An agent session produces a **session note** (see [.github/instructions/skills/note-taking.instructions.md](../.github/instructions/skills/note-taking.instructions.md)). That note is the unit of handoff. The next agent receives that note as context at the start of its session.
+An agent session produces a **session note** (see [.agents/skills/note-taking/SKILL.md](../.agents/skills/note-taking/SKILL.md)). That note is the unit of handoff. The next agent receives that note as context at the start of its session.
 
 The repo provides the **cognitive scaffold**. The session note provides the **runtime state**. Together, they give the next agent everything it needs.
 
@@ -36,8 +36,8 @@ The user then opens a new AI conversation with these files as context.
 **What to pass:**
 - Session note including: person's name, role, company, rationale, and any observed personalization hooks
 - `agents/outreach-writer.md`
-- `.github/instructions/skills/outreach-drafting.instructions.md`
-- `.github/instructions/skills/message-personalization.instructions.md`
+- `.agents/skills/outreach-drafting/SKILL.md`
+- `.agents/skills/message-personalization/SKILL.md`
 
 **Expected input format:** The note entry for the person, formatted per `note-taking` skill.
 
@@ -50,7 +50,7 @@ The user then opens a new AI conversation with these files as context.
 **What to pass:**
 - Session note including: company name, role, initial fit assessment, and open questions
 - `agents/researcher.md`
-- `.github/instructions/skills/company-research.instructions.md`
+- `.agents/skills/company-research/SKILL.md`
 
 ---
 

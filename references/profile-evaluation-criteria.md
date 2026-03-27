@@ -78,9 +78,9 @@ This is the highest-value signal for accessibility assessment:
 
 ## When Agents Should Consult This
 
-- [.github/instructions/skills/profile-summary.instructions.md](../.github/instructions/skills/profile-summary.instructions.md) — applies these criteria during profile summarization
-- [sourcer](../.github/instructions/agents/sourcer.instructions.md) — evaluates profiles against these criteria
-- [.github/instructions/skills/message-personalization.instructions.md](../.github/instructions/skills/message-personalization.instructions.md) — uses profile reading for hook identification
+- [.agents/skills/profile-summary/SKILL.md](../.agents/skills/profile-summary/SKILL.md) — applies these criteria during profile summarization
+- [sourcer](../.agents/agents/sourcer/AGENT.md) — evaluates profiles against these criteria
+- [.agents/skills/message-personalization/SKILL.md](../.agents/skills/message-personalization/SKILL.md) — uses profile reading for hook identification
 
 ---
 

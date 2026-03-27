@@ -11,7 +11,7 @@ Provides a framework for drafting effective LinkedIn outreach messages: choosing
 ## Used By
 
 - *(outreach-writer — future agent)*
-- [sourcer](../agents/sourcer.instructions.md) *(when preparing initial contact notes)*
+- [sourcer](../../agents/sourcer/AGENT.md) *(when preparing initial contact notes)*
 
 ---
 

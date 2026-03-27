@@ -10,8 +10,8 @@ Provides a structured format for recording the output of any agent session — w
 
 ## Used By
 
-- [sourcer](../agents/sourcer.instructions.md)
-- [headhunter](../agents/headhunter.instructions.md)
+- [sourcer](../../agents/sourcer/AGENT.md)
+- [headhunter](../../agents/headhunter/AGENT.md)
 - *(all future agents)*
 
 ---

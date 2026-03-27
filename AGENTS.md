@@ -10,9 +10,9 @@ This is the master index of all agents in this repo. Each agent is a focused rol
 
 | Agent | File | Purpose |
 |---|---|---|
-| `contributor` | [.github/instructions/agents/contributor.instructions.md](.github/instructions/agents/contributor.instructions.md) | Repo steward. The only agent authorized to modify, restructure, and maintain repo files. |
-| `sourcer` | [.github/instructions/agents/sourcer.instructions.md](.github/instructions/agents/sourcer.instructions.md) | Finds relevant people on LinkedIn: recruiters, hiring managers, connectors, subject-matter experts. |
-| `headhunter` | [.github/instructions/agents/headhunter.instructions.md](.github/instructions/agents/headhunter.instructions.md) | Finds jobs and opportunities aligned with your profile, goals, and preferences. |
+| `contributor` | [.agents/agents/contributor/AGENT.md](.agents/agents/contributor/AGENT.md) | Repo steward. The only agent authorized to modify, restructure, and maintain repo files. |
+| `sourcer` | [.agents/agents/sourcer/AGENT.md](.agents/agents/sourcer/AGENT.md) | Finds relevant people on LinkedIn: recruiters, hiring managers, connectors, subject-matter experts. |
+| `headhunter` | [.agents/agents/headhunter/AGENT.md](.agents/agents/headhunter/AGENT.md) | Finds jobs and opportunities aligned with your profile, goals, and preferences. |
 
 ---
 
