@@ -55,7 +55,7 @@ Step-by-step description of how this agent operates.
 2. 
 3. 
 
-<!-- For complex flows, link to a workflow file: See [workflow name](../workflows/filename.md) -->
+<!-- For complex flows, link to a workflow file: See [workflow name](../.workflows/filename.md) -->
 
 ---
 
@@ -71,7 +71,7 @@ Step-by-step description of how this agent operates.
 
 <!-- Link to each reference and describe what is retrieved from it. -->
 
-- [reference-name](../references/reference-name.md) — what is retrieved from it
+- [reference-name](../.references/reference-name.md) — what is retrieved from it
 
 ---
 
@@ -89,7 +89,7 @@ What this agent must never do. Hard constraints.
 How this agent's output connects to other agents or subsequent actions.
 
 - Output X can be passed to [agent-name](../agents/agent-name.md) for Y.
-- If a repo change is needed, flag it using [contributor-request.md](../templates/contributor-request.md).
+- If a repo change is needed, flag it using [contributor-request.md](../.templates/contributor-request.md).
 
 ---
 

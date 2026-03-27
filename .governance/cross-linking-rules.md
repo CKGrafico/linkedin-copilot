@@ -16,7 +16,7 @@ All links use **relative paths** from the current file's location.
 
 ```markdown
 [skill-name](../skills/skill-name.md)
-[reference-name](../references/reference-name.md)
+[reference-name](../.references/reference-name.md)
 [agent-name](../agents/agent-name.md)
 ```
 
@@ -42,12 +42,12 @@ See [person-search](../.agents/skills/person-search/SKILL.md) for query construc
 When the file name alone is ambiguous, use a short descriptive phrase:
 
 ```markdown
-See the [recruiter signals reference](../references/recruiter-signals.md) for activity pattern definitions.
+See the [recruiter signals reference](../.references/recruiter-signals.md) for activity pattern definitions.
 ```
 
 **Never use raw paths as anchor text:**
-- ❌ `[../references/recruiter-signals.md](../references/recruiter-signals.md)`
-- ✅ `[recruiter-signals](../references/recruiter-signals.md)`
+- ❌ `[../references/recruiter-signals.md](../.references/recruiter-signals.md)`
+- ✅ `[recruiter-signals](../.references/recruiter-signals.md)`
 
 ---
 

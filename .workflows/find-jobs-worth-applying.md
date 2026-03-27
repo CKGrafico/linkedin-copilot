@@ -125,7 +125,7 @@ A structured session note containing:
 - Opportunities requiring a warm contact: pass session note entry to [`sourcer`](../.agents/agents/sourcer/AGENT.md) to find a hiring manager or internal connection
 - Opportunities requiring deeper company research: pass to `company-scout` (future) or `researcher` (future)
 - Multiple opportunities needing comparison: run [workflows/compare-opportunities.md](compare-opportunities.md)
-- New job posting patterns discovered: flag via [templates/contributor-request.md](../templates/contributor-request.md) for [`contributor`](../.agents/agents/contributor/AGENT.md)
+- New job posting patterns discovered: flag via [templates/contributor-request.md](../.templates/contributor-request.md) for [`contributor`](../.agents/agents/contributor/AGENT.md)
 
 ---
 

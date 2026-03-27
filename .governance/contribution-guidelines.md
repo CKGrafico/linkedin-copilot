@@ -6,7 +6,7 @@
 
 ## Who can change repo files
 
-Only `contributor` may modify, create, rename, or delete files in this repo. User-facing agents produce outputs in session notes, not in repo files. If an agent session reveals something that should change the repo, the user routes a request to `contributor` using [`templates/contributor-request.md`](../templates/contributor-request.md).
+Only `contributor` may modify, create, rename, or delete files in this repo. User-facing agents produce outputs in session notes, not in repo files. If an agent session reveals something that should change the repo, the user routes a request to `contributor` using [`templates/contributor-request.md`](../.templates/contributor-request.md).
 
 ---
 
@@ -37,7 +37,7 @@ Only `contributor` may modify, create, rename, or delete files in this repo. Use
 - [ ] Uses the standard agent template structure
 - [ ] All skill references are valid and linked
 - [ ] All reference citations are valid and linked
-- [ ] Guardrails section is complete and consistent with [`references/ethical-boundaries.md`](../references/ethical-boundaries.md)
+- [ ] Guardrails section is complete and consistent with [`references/ethical-boundaries.md`](../.references/ethical-boundaries.md)
 - [ ] "When Not to Use" section names alternative agents where relevant
 
 **Skill files additionally:**

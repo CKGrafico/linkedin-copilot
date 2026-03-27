@@ -113,7 +113,7 @@ A structured session note containing:
 ## Handoff
 
 - Priority 1 candidates ready for outreach: pass session note entry to `outreach-writer` (future) with [agents/outreach-writer.md](../agents/outreach-writer.md) + [.agents/skills/outreach-drafting/SKILL.md](../.agents/skills/outreach-drafting/SKILL.md)
-- New heuristics or patterns discovered: flag via [templates/contributor-request.md](../templates/contributor-request.md) for [`contributor`](../.agents/agents/contributor/AGENT.md)
+- New heuristics or patterns discovered: flag via [templates/contributor-request.md](../.templates/contributor-request.md) for [`contributor`](../.agents/agents/contributor/AGENT.md)
 
 ---
 

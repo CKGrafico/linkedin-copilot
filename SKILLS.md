@@ -27,10 +27,10 @@ This is the master index of all shared skills in this repo. A skill is a reusabl
 
 ## How to add a new skill
 
-1. Copy [`templates/skill-template.md`](templates/skill-template.md) to `skills/your-skill-name.md`.
+1. Copy [`templates/skill-template.md`](.templates/skill-template.md) to `skills/your-skill-name.md`.
 2. Fill in all sections. Be precise about inputs, outputs, and which agents use it.
 3. Set status to `draft`.
-4. Submit a [`contributor-request`](templates/contributor-request.md) to have `contributor` review, update this index, and set status to `active`.
+4. Submit a [`contributor-request`](.templates/contributor-request.md) to have `contributor` review, update this index, and set status to `active`.
 
 ---
 
@@ -41,4 +41,4 @@ This is the master index of all shared skills in this repo. A skill is a reusabl
 - Skills may reference each other directionally. No circular references.
 - Only `contributor` may add or remove entries from this index.
 
-See [governance/naming-conventions.md](governance/naming-conventions.md) for naming rules.
+See [governance/naming-conventions.md](.governance/naming-conventions.md) for naming rules.

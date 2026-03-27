@@ -33,8 +33,8 @@
 What to give `contributor` when invoking it:
 
 - **This file:** `agents/contributor.md`
-- **The relevant governance files:** [`governance/contribution-guidelines.md`](../../../governance/contribution-guidelines.md), [`governance/naming-conventions.md`](../../../governance/naming-conventions.md), [`governance/status-model.md`](../../../governance/status-model.md)
-- **A filled-in contributor request:** [`templates/contributor-request.md`](../../../templates/contributor-request.md) describing exactly what change is needed
+- **The relevant governance files:** [`governance/contribution-guidelines.md`](../../../.governance/contribution-guidelines.md), [`governance/naming-conventions.md`](../../../.governance/naming-conventions.md), [`governance/status-model.md`](../../../.governance/status-model.md)
+- **A filled-in contributor request:** [`templates/contributor-request.md`](../../../.templates/contributor-request.md) describing exactly what change is needed
 - **The files to be changed:** attach the current version of any file being updated
 - **The appropriate template:** if creating a new file, attach the relevant template from `templates/`
 
@@ -67,7 +67,7 @@ Do not create a new file when:
 
 ### File splitting
 
-Split a file when it exceeds the limits in [`governance/file-size-guidelines.md`](../../../governance/file-size-guidelines.md), or when a clear conceptual boundary makes splitting natural.
+Split a file when it exceeds the limits in [`governance/file-size-guidelines.md`](../../../.governance/file-size-guidelines.md), or when a clear conceptual boundary makes splitting natural.
 
 ### Deduplication
 
@@ -104,7 +104,7 @@ When a file is renamed or moved:
 
 ### Periodic review
 
-Apply the checklist in [`governance/contribution-guidelines.md`](../../../governance/contribution-guidelines.md) to each file. Flag anything that does not pass. Fix issues or deprecate content as appropriate.
+Apply the checklist in [`governance/contribution-guidelines.md`](../../../.governance/contribution-guidelines.md) to each file. Flag anything that does not pass. Fix issues or deprecate content as appropriate.
 
 ---
 
@@ -121,7 +121,7 @@ Apply the checklist in [`governance/contribution-guidelines.md`](../../../govern
 
 ## Handoff Rules
 
-- All other agents route repo change requests through `contributor` using [`templates/contributor-request.md`](../../../templates/contributor-request.md).
+- All other agents route repo change requests through `contributor` using [`templates/contributor-request.md`](../../../.templates/contributor-request.md).
 - `contributor` does not hand off to other agents. It is the terminal destination for repo maintenance requests.
 - After completing a change, `contributor` produces a summary of what was changed, what cross-links were updated, and what (if anything) remains to be done.
 

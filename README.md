@@ -26,7 +26,7 @@ A single personal user managing their own LinkedIn presence: job searching, sour
 4. State your request in natural language.
 5. Capture the output using the structured note format from [`.agents/skills/note-taking/SKILL.md`](.agents/skills/note-taking/SKILL.md).
 
-To request changes to the repo (new agents, updated references, new skills), use the [`templates/contributor-request.md`](templates/contributor-request.md) template and invoke the `contributor` agent.
+To request changes to the repo (new agents, updated references, new skills), use the [`templates/contributor-request.md`](.templates/contributor-request.md) template and invoke the `contributor` agent.
 
 ---
 
@@ -72,10 +72,10 @@ This repo is built on a few hard rules:
 - **Only `contributor` edits the repo.** User-facing agents consume knowledge; they do not rewrite it.
 - **Every file has a status.** `draft`, `active`, `deprecated`, or `archived` — always visible.
 
-See [`governance/`](governance/) for the full rulebook.
+See [`governance/`](.governance/) for the full rulebook.
 
 ---
 
 ## Maintenance
 
-This repo is maintained by the [`contributor`](.agents/agents/contributor/AGENT.md) agent. To request a change, use [`templates/contributor-request.md`](templates/contributor-request.md).
+This repo is maintained by the [`contributor`](.agents/agents/contributor/AGENT.md) agent. To request a change, use [`templates/contributor-request.md`](.templates/contributor-request.md).

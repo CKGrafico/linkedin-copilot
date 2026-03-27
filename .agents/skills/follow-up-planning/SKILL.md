@@ -108,7 +108,7 @@ A structured follow-up plan embedded in the session note:
 
 ## References
 
-- [outreach-best-practices](../../../references/outreach-best-practices.md) — follow-up cadence norms
+- [outreach-best-practices](../../../.references/outreach-best-practices.md) — follow-up cadence norms
 
 ---
 

@@ -106,8 +106,8 @@ Flags: [any concerns or open questions]
 
 ## References
 
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — detailed signals for posting quality
-- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — how to assess a company
+- [job-search-heuristics](../../../.references/job-search-heuristics.md) — detailed signals for posting quality
+- [company-evaluation-criteria](../../../.references/company-evaluation-criteria.md) — how to assess a company
 
 ---
 

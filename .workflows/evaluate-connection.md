@@ -48,7 +48,7 @@ A structured decision process for determining whether to accept or send a Linked
 - Is there a plausible reason this person connected with you (shared group, domain overlap, commented on a post)?
 
 **Trust:**
-- Does the profile look legitimate? (Real photo, real work history, no red flags from [profile-evaluation-criteria](../references/profile-evaluation-criteria.md))
+- Does the profile look legitimate? (Real photo, real work history, no red flags from [profile-evaluation-criteria](../.references/profile-evaluation-criteria.md))
 - Do you have shared context? (mutual connections, shared company, same school)
 - Does the request include a personalized note that references real context?
 

@@ -157,9 +157,9 @@ Next action: [outreach / research further / skip / monitor]
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [profile-evaluation-criteria](../../../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signals that indicate a high-value contact
+- [browser-mcp](../../../.references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [profile-evaluation-criteria](../../../.references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
+- [sourcing-heuristics](../../../.references/sourcing-heuristics.md) — signals that indicate a high-value contact
 
 ---
 

@@ -162,9 +162,9 @@ Strategic fit: [strong / moderate / weak] — [1-sentence rationale]
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
-- [recruiter-signals](../../../references/recruiter-signals.md) — reading hiring activity patterns
+- [browser-mcp](../../../.references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [company-evaluation-criteria](../../../.references/company-evaluation-criteria.md) — detailed criteria for assessing companies
+- [recruiter-signals](../../../.references/recruiter-signals.md) — reading hiring activity patterns
 
 ---
 

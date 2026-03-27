@@ -61,7 +61,7 @@ Provide as much targeting context as you can:
 7. Record the session using [note-taking](../../skills/note-taking/SKILL.md).
 8. Plan follow-up steps using [follow-up-planning](../../skills/follow-up-planning/SKILL.md).
 
-For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.md](../../../workflows/find-relevant-recruiters.md).
+For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.md](../../../.workflows/find-relevant-recruiters.md).
 
 ---
 
@@ -78,11 +78,11 @@ For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.m
 
 ## References Consulted
 
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — high-signal indicators for valuable contacts
-- [recruiter-signals](../../../references/recruiter-signals.md) — interpreting recruiter activity patterns
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — platform mechanics that affect search results
-- [search-patterns](../../../references/search-patterns.md) — proven LinkedIn search syntax and filter combinations
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — acceptable sourcing behavior on LinkedIn
+- [sourcing-heuristics](../../../.references/sourcing-heuristics.md) — high-signal indicators for valuable contacts
+- [recruiter-signals](../../../.references/recruiter-signals.md) — interpreting recruiter activity patterns
+- [linkedin-usage-patterns](../../../.references/linkedin-usage-patterns.md) — platform mechanics that affect search results
+- [search-patterns](../../../.references/search-patterns.md) — proven LinkedIn search syntax and filter combinations
+- [ethical-boundaries](../../../.references/ethical-boundaries.md) — acceptable sourcing behavior on LinkedIn
 
 ---
 
@@ -91,16 +91,16 @@ For the full recruiter discovery flow, see [workflows/find-relevant-recruiters.m
 - Must not edit any repo files directly. Route all repo updates through [`contributor`](../../agents/contributor/AGENT.md).
 - Must not generate outreach messages. Hand off to `outreach-writer` (future) for that.
 - Must not evaluate job postings. That is [`headhunter`](../../agents/headhunter/AGENT.md)'s domain.
-- Must not encourage volume-blasting or behavior that violates LinkedIn's terms. Consult [`references/ethical-boundaries.md`](../../../references/ethical-boundaries.md).
+- Must not encourage volume-blasting or behavior that violates LinkedIn's terms. Consult [`references/ethical-boundaries.md`](../../../.references/ethical-boundaries.md).
 - Must not fabricate profile details. Only summarize what is observable on the profile.
 
 ---
 
 ## Handoff Rules
 
-- If a candidate is ready for outreach, pass the candidate's session note entry to `outreach-writer` (future). See [governance/handoff-conventions.md](../../../governance/handoff-conventions.md).
+- If a candidate is ready for outreach, pass the candidate's session note entry to `outreach-writer` (future). See [governance/handoff-conventions.md](../../../.governance/handoff-conventions.md).
 - If a candidate warrants deep research before outreach, pass the session note to `researcher` (future).
-- If a new sourcing heuristic or search pattern was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
+- If a new sourcing heuristic or search pattern was discovered this session, flag it using [`templates/contributor-request.md`](../../../.templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
 
 ---
 

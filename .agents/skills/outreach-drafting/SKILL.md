@@ -107,8 +107,8 @@ A complete draft message, labeled with:
 
 ## References
 
-- [outreach-best-practices](../../../references/outreach-best-practices.md) — what makes outreach effective vs. ignored
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — acceptable outreach volume and behavior
+- [outreach-best-practices](../../../.references/outreach-best-practices.md) — what makes outreach effective vs. ignored
+- [ethical-boundaries](../../../.references/ethical-boundaries.md) — acceptable outreach volume and behavior
 
 ---
 

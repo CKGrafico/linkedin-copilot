@@ -8,11 +8,11 @@ This glossary defines terms used across agents, skills, workflows, and reference
 
 ## A
 
-**Active status** — A file that is complete, reviewed, and the authoritative source for its topic. Indicated by the `ACTIVE` status banner. See [governance/status-model.md](governance/status-model.md).
+**Active status** — A file that is complete, reviewed, and the authoritative source for its topic. Indicated by the `ACTIVE` status banner. See [governance/status-model.md](.governance/status-model.md).
 
 **Agent** — A Markdown file that defines a focused AI role: its mission, inputs, outputs, skills used, guardrails, and handoff rules. An agent file is the complete operating manual for one AI persona.
 
-**Archived status** — A file that is no longer maintained, retained only for historical reference. Indicated by the `ARCHIVED` status banner. See [governance/status-model.md](governance/status-model.md).
+**Archived status** — A file that is no longer maintained, retained only for historical reference. Indicated by the `ARCHIVED` status banner. See [governance/status-model.md](.governance/status-model.md).
 
 ---
 
@@ -30,7 +30,7 @@ This glossary defines terms used across agents, skills, workflows, and reference
 
 **Contributor** — The repo maintenance agent. The only agent authorized to modify repo files. See [agents/contributor.md](agents/contributor.md).
 
-**Contributor request** — A structured request asking `contributor` to make a specific change to the repo. Submitted using [templates/contributor-request.md](templates/contributor-request.md).
+**Contributor request** — A structured request asking `contributor` to make a specific change to the repo. Submitted using [templates/contributor-request.md](.templates/contributor-request.md).
 
 ---
 
@@ -38,9 +38,9 @@ This glossary defines terms used across agents, skills, workflows, and reference
 
 **Degree (1st, 2nd, 3rd)** — LinkedIn's connection proximity model. 1st-degree connections are direct connections. 2nd-degree are connections of connections. 3rd-degree are one step further. Search visibility and outreach options vary by degree.
 
-**Deprecated status** — A file that is no longer current, replaced by a newer file. Indicated by the `DEPRECATED` status banner. See [governance/status-model.md](governance/status-model.md).
+**Deprecated status** — A file that is no longer current, replaced by a newer file. Indicated by the `DEPRECATED` status banner. See [governance/status-model.md](.governance/status-model.md).
 
-**Draft status** — A file that is in progress and should not be relied upon. Indicated by the `DRAFT` status banner. See [governance/status-model.md](governance/status-model.md).
+**Draft status** — A file that is in progress and should not be relied upon. Indicated by the `DRAFT` status banner. See [governance/status-model.md](.governance/status-model.md).
 
 ---
 
@@ -60,7 +60,7 @@ This glossary defines terms used across agents, skills, workflows, and reference
 
 ## H
 
-**Handoff** — The process by which one agent's output becomes another agent's input. Handoffs are documented in each agent's **Handoff Rules** section and in [governance/handoff-conventions.md](governance/handoff-conventions.md).
+**Handoff** — The process by which one agent's output becomes another agent's input. Handoffs are documented in each agent's **Handoff Rules** section and in [governance/handoff-conventions.md](.governance/handoff-conventions.md).
 
 **Headhunter** — The job and opportunity discovery agent. See [agents/headhunter.md](agents/headhunter.md).
 
@@ -108,7 +108,7 @@ This glossary defines terms used across agents, skills, workflows, and reference
 
 **Reference** — A Markdown file in `references/` containing factual knowledge that agents consult. References describe *what is true*; skills describe *how to do things*.
 
-**Recruiter signal** — Observable LinkedIn activity patterns that indicate a recruiter is actively sourcing. See [references/recruiter-signals.md](references/recruiter-signals.md).
+**Recruiter signal** — Observable LinkedIn activity patterns that indicate a recruiter is actively sourcing. See [references/recruiter-signals.md](.references/recruiter-signals.md).
 
 ---
 

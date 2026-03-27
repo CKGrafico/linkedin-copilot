@@ -99,8 +99,8 @@ Record the final working query in your session notes (see [note-taking](./`note-
 
 ## References
 
-- [search-patterns](../../../references/search-patterns.md) — proven query patterns for common LinkedIn search types
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how LinkedIn's search ranking works
+- [search-patterns](../../../.references/search-patterns.md) — proven query patterns for common LinkedIn search types
+- [linkedin-usage-patterns](../../../.references/linkedin-usage-patterns.md) — how LinkedIn's search ranking works
 
 ---
 

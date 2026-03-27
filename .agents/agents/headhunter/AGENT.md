@@ -63,8 +63,8 @@ Provide your targeting context as specifically as possible:
 8. Record session using [note-taking](../../skills/note-taking/SKILL.md).
 9. Plan follow-up steps using [follow-up-planning](../../skills/follow-up-planning/SKILL.md).
 
-For multi-opportunity comparison, see [workflows/compare-opportunities.md](../../../workflows/compare-opportunities.md).
-For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../../workflows/find-jobs-worth-applying.md).
+For multi-opportunity comparison, see [workflows/compare-opportunities.md](../../../.workflows/compare-opportunities.md).
+For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../../.workflows/find-jobs-worth-applying.md).
 
 ---
 
@@ -82,12 +82,12 @@ For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../
 
 ## References Consulted
 
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — what makes a posting worth pursuing
-- [recruiter-signals](../../../references/recruiter-signals.md) — interpreting recruiter and company hiring activity
-- [company-evaluation-criteria](../../../references/company-evaluation-criteria.md) — assessing companies as targets
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — platform mechanics affecting job search results
-- [search-patterns](../../../references/search-patterns.md) — proven LinkedIn search syntax
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — acceptable search behavior
+- [job-search-heuristics](../../../.references/job-search-heuristics.md) — what makes a posting worth pursuing
+- [recruiter-signals](../../../.references/recruiter-signals.md) — interpreting recruiter and company hiring activity
+- [company-evaluation-criteria](../../../.references/company-evaluation-criteria.md) — assessing companies as targets
+- [linkedin-usage-patterns](../../../.references/linkedin-usage-patterns.md) — platform mechanics affecting job search results
+- [search-patterns](../../../.references/search-patterns.md) — proven LinkedIn search syntax
+- [ethical-boundaries](../../../.references/ethical-boundaries.md) — acceptable search behavior
 
 ---
 
@@ -105,8 +105,8 @@ For the full job search flow, see [workflows/find-jobs-worth-applying.md](../../
 
 - If a strong opportunity requires identifying the hiring manager or a relevant internal contact, hand off a session note entry to [`sourcer`](../../agents/sourcer/AGENT.md) for person discovery.
 - If a company warrants deeper investigation, flag it for `company-scout` (future) or `researcher` (future).
-- If a new job posting heuristic or company signal was discovered this session, flag it using [`templates/contributor-request.md`](../../../templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
-- For multiple opportunities needing comparison, run the [compare-opportunities workflow](../../../workflows/compare-opportunities.md).
+- If a new job posting heuristic or company signal was discovered this session, flag it using [`templates/contributor-request.md`](../../../.templates/contributor-request.md) and route to [`contributor`](../../agents/contributor/AGENT.md).
+- For multiple opportunities needing comparison, run the [compare-opportunities workflow](../../../.workflows/compare-opportunities.md).
 
 ---
 

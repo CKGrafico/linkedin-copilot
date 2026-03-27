@@ -101,8 +101,8 @@ Secondary hook (if applicable): [Category] — [specific observation]
 
 ## References
 
-- [outreach-best-practices](../../../references/outreach-best-practices.md) — personalization depth benchmarks
-- [profile-evaluation-criteria](../../../references/profile-evaluation-criteria.md) — reading profile signals for hooks
+- [outreach-best-practices](../../../.references/outreach-best-practices.md) — personalization depth benchmarks
+- [profile-evaluation-criteria](../../../.references/profile-evaluation-criteria.md) — reading profile signals for hooks
 
 ---
 

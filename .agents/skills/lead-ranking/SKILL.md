@@ -133,8 +133,8 @@ A ranked list with explicit priority tiers:
 
 ## References
 
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — signal definitions for people ranking
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — quality signals for opportunity ranking
+- [sourcing-heuristics](../../../.references/sourcing-heuristics.md) — signal definitions for people ranking
+- [job-search-heuristics](../../../.references/job-search-heuristics.md) — quality signals for opportunity ranking
 
 ---
 

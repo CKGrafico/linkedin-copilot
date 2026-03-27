@@ -202,10 +202,10 @@ A raw opportunity list, to be qualified further:
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [job-search-heuristics](../../../references/job-search-heuristics.md) — what makes a posting worth pursuing
-- [recruiter-signals](../../../references/recruiter-signals.md) — reading company hiring activity patterns
-- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
+- [browser-mcp](../../../.references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [job-search-heuristics](../../../.references/job-search-heuristics.md) — what makes a posting worth pursuing
+- [recruiter-signals](../../../.references/recruiter-signals.md) — reading company hiring activity patterns
+- [search-patterns](../../../.references/search-patterns.md) — reliable search patterns by use case
 
 ---
 

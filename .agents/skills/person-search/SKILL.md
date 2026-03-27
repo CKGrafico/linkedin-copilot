@@ -151,11 +151,11 @@ A candidate list with per-entry structure:
 
 ## References
 
-- [browser-mcp](../../../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
-- [sourcing-heuristics](../../../references/sourcing-heuristics.md) — which signals indicate a valuable contact
-- [search-patterns](../../../references/search-patterns.md) — reliable search patterns by use case
-- [linkedin-usage-patterns](../../../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
-- [ethical-boundaries](../../../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
+- [browser-mcp](../../../.references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
+- [sourcing-heuristics](../../../.references/sourcing-heuristics.md) — which signals indicate a valuable contact
+- [search-patterns](../../../.references/search-patterns.md) — reliable search patterns by use case
+- [linkedin-usage-patterns](../../../.references/linkedin-usage-patterns.md) — how search results are ranked and displayed
+- [ethical-boundaries](../../../.references/ethical-boundaries.md) — volume and behavior limits for automated sessions
 
 ---
 

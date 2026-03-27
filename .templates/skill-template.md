@@ -62,7 +62,7 @@ What form the result of this skill takes.
 
 <!-- Link to reference files this skill consults. -->
 
-- [reference-name](../references/reference-name.md) — what to look up here
+- [reference-name](../.references/reference-name.md) — what to look up here
 
 ---
 
