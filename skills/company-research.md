@@ -20,7 +20,65 @@ When a specific company needs evaluation — either as a job application target,
 
 ---
 
-## Instructions
+## Browser MCP Automation
+
+Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+
+### 1. Navigate to the company page
+
+```
+navigate: https://www.linkedin.com/company/[company-slug]/
+wait: 3
+snapshot
+```
+
+To find the correct company slug, navigate to LinkedIn and search for the company name, then use the URL of the company's LinkedIn page.
+
+### 2. Read the overview snapshot
+
+```
+snapshot
+```
+
+Extract from the overview tab:
+- Company name and industry
+- Employee count
+- Headquarters location
+- Founded year
+- Website URL
+- Headcount trend (if visible)
+
+### 3. Check company posts
+
+```
+click: [Posts tab]
+wait: 2
+snapshot
+```
+
+Read recent posts for activity signals, culture indicators, and growth announcements.
+
+### 4. Check open jobs
+
+```
+click: [Jobs tab]
+wait: 2
+snapshot
+```
+
+Read the number of open roles, recency of postings, and which departments are hiring.
+
+### 5. Return
+
+```
+go_back
+wait: 2
+snapshot
+```
+
+---
+
+## Instructions (without Browser MCP)
 
 ### 1. Find the company's LinkedIn page
 
@@ -96,6 +154,7 @@ Strategic fit: [strong / moderate / weak] — [1-sentence rationale]
 
 ## Related Skills
 
+- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
 - [opportunity-qualification](opportunity-qualification.md) — uses this assessment as input for the "Research further" path
 - [lead-ranking](lead-ranking.md) — company quality contributes to opportunity ranking
 
@@ -103,6 +162,7 @@ Strategic fit: [strong / moderate / weak] — [1-sentence rationale]
 
 ## References
 
+- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
 - [company-evaluation-criteria](../references/company-evaluation-criteria.md) — detailed criteria for assessing companies
 - [recruiter-signals](../references/recruiter-signals.md) — reading hiring activity patterns
 

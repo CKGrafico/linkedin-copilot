@@ -18,6 +18,24 @@ Summary of what changed and why.
 
 ---
 
+## 2026-03-27 — Browser MCP integration (v1.1)
+
+**Type:** Added / Changed
+
+Added Browser MCP automation support across core skills and references:
+
+- **Added** `skills/browser-navigation.md` — foundational browser operation skill covering login check, navigate, snapshot, scroll, click, paginate, and CAPTCHA safe stop
+- **Added** `references/browser-mcp.md` — documents all available Browser MCP tools, LinkedIn URL patterns, and rate/ethics guidelines
+- **Changed** `skills/person-search.md` — added full Browser MCP automation steps (navigate, type, snapshot, filter, iterate, paginate)
+- **Changed** `skills/job-search.md` — added Browser MCP automation steps (navigate by URL, filter, iterate job cards, paginate)
+- **Changed** `skills/profile-summary.md` — added Browser MCP automation steps (navigate to profile URL, snapshot, scroll, go_back)
+- **Changed** `skills/company-research.md` — added Browser MCP automation steps (navigate to company page, Posts tab, Jobs tab)
+- **Changed** `SKILLS.md` — added `browser-navigation` to the skills table
+
+Agents are now fully autonomous when Browser MCP is active in the AI client.
+
+---
+
 ## 2026-03-27 — Initial repo scaffold (v1.0)
 
 **Type:** Added

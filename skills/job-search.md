@@ -20,7 +20,88 @@ After job search queries have been designed using [search-query-design](search-q
 
 ---
 
-## Instructions
+## Browser MCP Automation
+
+Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+
+### 1. Navigate to LinkedIn Jobs
+
+```
+navigate: https://www.linkedin.com/jobs/search/?keywords=[encoded-query]&location=[encoded-location]
+wait: 3
+snapshot
+```
+
+Confirm the Jobs search page loaded (you will see a list of job cards).
+If LinkedIn asks you to log in, follow the login flow from [browser-navigation](browser-navigation.md).
+
+### 2. Enter or refine the query
+
+If navigating by URL did not set the query correctly:
+
+```
+click: [jobs search keywords field]
+type: [Boolean query from search-query-design]
+press_key: Enter
+wait: 3
+snapshot
+```
+
+### 3. Apply filters
+
+Apply filters in this order. For each filter:
+
+```
+click: [filter label — e.g., "Date posted"]
+wait: 1
+snapshot
+click: [desired option — e.g., "Past week"]
+wait: 2
+snapshot
+```
+
+Apply in this order:
+1. **Date posted** — Start with "Past week"; expand to "Past month" if too few results
+2. **Experience level** — Match your target seniority
+3. **Job type** — Full-time unless otherwise needed
+4. **Remote** — Set to your actual preference (On-site / Hybrid / Remote)
+5. **Company** — Apply if targeting specific companies
+
+### 4. Iterate job listings
+
+For each job card visible in the snapshot:
+
+```
+click: [job card title]
+wait: 2
+snapshot
+```
+
+Read the job details panel (title, company, location, description, applicant count, posted date).
+Record findings per output format below.
+Return to results:
+
+```
+go_back
+wait: 2
+snapshot
+```
+
+### 5. Paginate
+
+If more results are needed:
+
+```
+click: [Next page button or page number]
+wait: 3
+snapshot
+```
+
+Repeat until you have enough results or quality drops.
+
+---
+
+## Instructions (without Browser MCP)
 
 ### 1. Use LinkedIn Jobs, not the main search bar
 
@@ -112,6 +193,7 @@ A raw opportunity list, to be qualified further:
 
 ## Related Skills
 
+- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
 - [search-query-design](search-query-design.md) — prerequisite; designs the queries this skill executes
 - [opportunity-qualification](opportunity-qualification.md) — next step; evaluates each result in depth
 - [company-research](company-research.md) — used when a company needs deeper investigation
@@ -120,6 +202,7 @@ A raw opportunity list, to be qualified further:
 
 ## References
 
+- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
 - [job-search-heuristics](../references/job-search-heuristics.md) — what makes a posting worth pursuing
 - [recruiter-signals](../references/recruiter-signals.md) — reading company hiring activity patterns
 - [search-patterns](../references/search-patterns.md) — reliable search patterns by use case

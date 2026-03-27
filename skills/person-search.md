@@ -4,7 +4,7 @@
 
 ## What This Skill Does
 
-Guides execution of an effective LinkedIn people search: selecting the right filters, interpreting result quality, identifying promising leads, and knowing when to refine vs. move on.
+Executes an effective LinkedIn people search using Browser MCP — navigating to LinkedIn, entering queries, applying filters, reading results, and building a candidate list from what is found.
 
 ---
 
@@ -16,72 +16,108 @@ Guides execution of an effective LinkedIn people search: selecting the right fil
 
 ## When to Apply
 
-After queries have been designed using [search-query-design](search-query-design.md) and the user is ready to execute the actual search. This skill governs what to do once results appear.
+After queries have been designed using [search-query-design](search-query-design.md). Requires Browser MCP to be active and LinkedIn to be open in the browser. See [browser-navigation](browser-navigation.md) for setup.
 
 ---
 
 ## Instructions
 
-### 1. Set up the search correctly
+### 1. Open LinkedIn People search
 
-Navigate to LinkedIn People search (not the main search bar, which mixes result types). Apply your Boolean query in the search bar, then layer in filters. Recommended filter order:
-1. Geography (location filter)
-2. Connection degree (1st, 2nd, 3rd+)
-3. Current company or industry
-4. Any recency signal if available (recently active, recently changed jobs)
+```
+navigate: https://www.linkedin.com/search/results/people/
+wait: 2
+snapshot
+```
 
-### 2. Assess result quality on the first page
+Confirm the People search page is loaded (you will see a search bar and filter options).
 
-Before diving into individual profiles, scan the first page (10 results):
-- Do the headlines match your target type?
-- Is the seniority approximately right?
-- Are you seeing obvious false positives?
+### 2. Enter the search query
 
-If more than 30% of results are clearly wrong, refine the query before proceeding. Use [search-query-design](search-query-design.md).
+```
+click: [search bar / keywords input]
+type: [Boolean query from search-query-design]
+press_key: Enter
+wait: 3
+snapshot
+```
 
-### 3. Prioritize by connection degree
+### 3. Apply filters
 
-Within the same relevance level, prefer results in this order:
-1. **2nd-degree connections** — shared connections create credibility for outreach
-2. **1st-degree connections** — already connected, but may require a different approach
-3. **3rd-degree or open profiles** — cold, lower response rate, but viable with strong personalization
+After the initial results load, apply filters in this order. For each filter:
+```
+click: [filter button label]
+wait: 1
+snapshot
+[select option]
+wait: 2
+snapshot
+```
 
-### 4. Review each candidate profile
+Recommended filter order:
+1. **Connections** — select 2nd degree first; expand to 3rd+ if results are thin
+2. **Locations** — enter the target city or region
+3. **Current company** — if targeting specific companies
+4. **All filters → Industry** — if domain filtering is needed
 
-For each promising result, apply [profile-summary](profile-summary.md) to extract:
-- Current role and company
-- Career trajectory signals
-- Activity signals (recent posts, comments, engagement)
-- Connection degree and path
-- Any shared context (school, former employer, group membership)
+### 4. Assess first-page quality
 
-### 5. Apply sourcing heuristics
+Read the snapshot of the first results page. Scan the 10 visible results:
+- Do the headlines match the target type?
+- Is seniority approximately right?
+- More than 3 obvious false positives? Refine the query and re-run.
 
-Consult [references/sourcing-heuristics.md](../references/sourcing-heuristics.md) to identify which profiles are worth prioritizing. Key signals include:
-- Recent activity (posted or commented in last 30 days)
-- Role type match (internal vs. agency recruiter, for example)
-- Company growth signal
-- Mutual connections
+### 5. Collect results — iterate through profiles
 
-### 6. Build the candidate list
+For each promising result on the page, open the profile and summarize it:
 
-Record each viable candidate with:
-- Name
-- Current title and company
-- Connection degree + path (if 2nd, who is the mutual?)
-- Key signals (why this person is interesting)
-- Recommended next action
+```
+click: [person's name link]
+wait: 2
+snapshot
+```
 
-Pass the list through [lead-ranking](lead-ranking.md) to prioritize.
+Apply [profile-summary](profile-summary.md) to extract: role, trajectory, activity, connection degree, mutual connections, hooks.
 
-### 7. Know when to stop
+Then return to results:
+```
+go_back
+wait: 2
+snapshot
+```
+
+Repeat for each promising result. Skip profiles that are clearly mismatched based on the headline alone — do not open every profile.
+
+### 6. Paginate if needed
+
+After reviewing all results on the current page:
+```
+click: Next
+wait: 3
+snapshot
+```
+
+Continue until you have 5–10 qualified candidates or have reviewed 3 pages with diminishing quality.
+
+### 7. Prioritize by connection degree
+
+Within the same relevance level, prefer:
+1. **2nd-degree** with a strong mutual you know well
+2. **1st-degree** (already connected)
+3. **3rd-degree or open profiles**
+
+### 8. Build the candidate list
+
+Record each viable candidate using the output format below. Pass through [lead-ranking](lead-ranking.md) to prioritize.
+
+### 9. Know when to stop
 
 Stop when you have:
 - 5–10 well-qualified candidates, OR
-- Reviewed 50+ results with diminishing quality, OR
-- Exhausted meaningful results in the current query
+- Reviewed 3+ pages with diminishing quality, OR
+- Exhausted results for the current query
 
-If the list is too thin, return to [search-query-design](search-query-design.md) and broaden the query.
+If the list is too thin, return to [search-query-design](search-query-design.md) and broaden.
 
 ---
 
@@ -106,6 +142,7 @@ A candidate list with per-entry structure:
 
 ## Related Skills
 
+- [browser-navigation](browser-navigation.md) — foundational browser operation patterns used throughout this skill
 - [search-query-design](search-query-design.md) — prerequisite; designs the queries this skill executes
 - [profile-summary](profile-summary.md) — used during candidate review
 - [lead-ranking](lead-ranking.md) — used to prioritize the candidate list
@@ -114,10 +151,11 @@ A candidate list with per-entry structure:
 
 ## References
 
+- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
 - [sourcing-heuristics](../references/sourcing-heuristics.md) — which signals indicate a valuable contact
 - [search-patterns](../references/search-patterns.md) — reliable search patterns by use case
 - [linkedin-usage-patterns](../references/linkedin-usage-patterns.md) — how search results are ranked and displayed
-- [ethical-boundaries](../references/ethical-boundaries.md) — volume and behavior limits
+- [ethical-boundaries](../references/ethical-boundaries.md) — volume and behavior limits for automated sessions
 
 ---
 

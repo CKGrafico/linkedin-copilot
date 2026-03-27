@@ -21,7 +21,55 @@ When you need to evaluate a person's profile quickly and accurately — whether 
 
 ---
 
-## Instructions
+## Browser MCP Automation
+
+Requires Browser MCP active. See [browser-navigation](browser-navigation.md) for setup and general patterns.
+
+### 1. Navigate to the profile
+
+```
+navigate: https://www.linkedin.com/in/[profile-slug]
+wait: 3
+snapshot
+```
+
+If you only have a name (not a URL), run a people search first using [person-search](person-search.md), then navigate to the profile URL from those results.
+
+### 2. Read the full profile via snapshot
+
+```
+snapshot
+```
+
+The snapshot returns the page's accessibility tree. Extract from it:
+- Headline and current role
+- Experience section (all entries)
+- Activity feed (recent posts/comments if visible)
+- Education section
+- Mutual connections count
+- Any "Open to work" or "Hiring" signals
+
+If the page is long and the snapshot is truncated, scroll:
+
+```
+press_key: End
+wait: 2
+snapshot
+```
+
+### 3. Return to the previous page
+
+After reading:
+
+```
+go_back
+wait: 2
+snapshot
+```
+
+---
+
+## Instructions (without Browser MCP)
 
 ### 1. Read the headline and current role first
 
@@ -101,6 +149,7 @@ Next action: [outreach / research further / skip / monitor]
 
 ## Related Skills
 
+- [browser-navigation](browser-navigation.md) — foundational browser operation patterns
 - [lead-ranking](lead-ranking.md) — uses this summary as input for prioritization
 - [message-personalization](message-personalization.md) — uses the hooks identified here
 
@@ -108,6 +157,7 @@ Next action: [outreach / research further / skip / monitor]
 
 ## References
 
+- [browser-mcp](../references/browser-mcp.md) — available browser tools and LinkedIn URL patterns
 - [profile-evaluation-criteria](../references/profile-evaluation-criteria.md) — detailed criteria for assessing profiles
 - [sourcing-heuristics](../references/sourcing-heuristics.md) — signals that indicate a high-value contact
 
